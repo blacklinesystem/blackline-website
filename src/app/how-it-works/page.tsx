@@ -1,5 +1,4 @@
-"use client";
-
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -12,6 +11,13 @@ import {
   ArrowRight,
   Check,
 } from "lucide-react";
+
+export const metadata: Metadata = {
+  title: "How It Works",
+  description:
+    "From zero to booked meetings in 14 days. See our 5-step process for building custom AI cold email systems — strategy, infrastructure, leads, copy, and launch.",
+  alternates: { canonical: "/how-it-works" },
+};
 
 const steps = [
   {
@@ -218,7 +224,7 @@ export default function HowItWorksPage() {
             </Button>
           </div>
           <p className="mt-3 text-xs text-muted-foreground">
-            30-minute call. No obligation. Just a roadmap for your pipeline.
+            60-minute call. No obligation. Just a roadmap for your pipeline.
           </p>
         </div>
       </section>

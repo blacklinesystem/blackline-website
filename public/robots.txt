@@ -1,0 +1,5 @@
+# Blackline — blacklinesystem.com
+User-agent: *
+Allow: /
+
+Sitemap: https://blacklinesystem.vercel.app/sitemap.xml

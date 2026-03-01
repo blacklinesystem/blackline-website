@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
@@ -18,102 +19,109 @@ import {
   Send,
 } from "lucide-react";
 
+export const metadata: Metadata = {
+  title: "Our Work",
+  description:
+    "See how Blackline builds AI cold email systems for B2B SaaS, business coaches, and e-commerce brands. Real strategies, infrastructure, and estimated results.",
+  alternates: { canonical: "/our-work" },
+};
+
 /* ── Case Study Data ── */
 const caseStudies = [
   {
     icon: Building2,
     industry: "B2B SaaS",
-    company: "Cloud-based project management platform",
-    companySize: "Series A, 30 employees",
+    company: "Early-stage task management tool for remote teams",
+    companySize: "Seed-funded, 8 employees",
     challenge:
-      "Founding team was doing all outbound manually. CEO spending 15+ hours a week on LinkedIn and cold emails with a 0.3% reply rate. Pipeline was unpredictable and they were burning runway fast.",
+      "Two co-founders splitting time between building product and doing outbound. CEO spending 15+ hours a week on LinkedIn DMs and cold emails with a 0.3% reply rate. Pipeline was unpredictable and they needed consistent demos to hit their next funding milestone.",
     icp: {
-      title: "Director of Operations / VP of Engineering",
-      company: "Mid-market tech companies (200-2,000 employees)",
-      industry: "SaaS, FinTech, HealthTech",
+      title: "Head of Operations / Team Lead",
+      company: "Remote-first startups and agencies (15-150 employees)",
+      industry: "SaaS, Digital Agencies, Professional Services",
       location: "US & Canada",
-      signals: "Recently hired project managers, growing engineering teams, using legacy tools like Jira or Asana",
-    },
-    infrastructure: {
-      domains: 4,
-      mailboxes: 16,
-      warmupDays: 14,
-      dailySendVolume: "120-180 emails/day",
-    },
-    emailExample: {
-      subject: "{{firstName}}, quick thought on {{company}}'s project workflow",
-      preview:
-        "Noticed your team just crossed 50 engineers. At that size, most ops leaders tell us the same thing: projects slip through the cracks because nobody has real-time visibility across teams.\n\nWe built [Platform] specifically for engineering orgs scaling past the point where spreadsheets and standup meetings keep things on track.\n\nWorth a 15-min look, or is your current setup actually working?",
-    },
-    results: {
-      meetingsPerMonth: "15-22",
-      replyRate: "4.8%",
-      estimatedPipelineValue: "$180K-$260K/quarter",
-      timeToFirstMeeting: "6 days after launch",
-    },
-  },
-  {
-    icon: Briefcase,
-    industry: "Management Consulting",
-    company: "Boutique strategy consulting firm",
-    companySize: "12 consultants, $3M revenue",
-    challenge:
-      "100% referral-dependent. When referrals slowed, revenue dropped 40% in one quarter. No outbound system, no pipeline visibility, and zero predictability on where the next client was coming from.",
-    icp: {
-      title: "CEO / COO / VP of Strategy",
-      company: "Private equity-backed companies ($10M-$100M revenue)",
-      industry: "Manufacturing, Professional Services, Healthcare",
-      location: "Northeast US",
-      signals: "Recent PE acquisition, new C-suite hires, undergoing operational transformation",
+      signals: "Recently went remote-first, growing headcount, using spreadsheets or basic tools for project tracking",
     },
     infrastructure: {
       domains: 3,
       mailboxes: 12,
-      warmupDays: 12,
+      warmupDays: 14,
       dailySendVolume: "80-120 emails/day",
     },
     emailExample: {
-      subject: "Post-acquisition growing pains at {{company}}?",
+      subject: "{{firstName}}, quick thought on how {{company}} tracks projects remotely",
       preview:
-        "Most PE-backed companies in the $10-50M range hit the same wall 6 months after acquisition: the playbook that got them here won't get them there.\n\nWe've helped 30+ portfolio companies build the operational infrastructure to actually hit those growth targets the partners are expecting.\n\nOpen to a quick conversation about what that could look like for {{company}}?",
+        "Noticed {{company}} has been growing the remote team. Once you're past 20 people, most ops leads say the same thing: things start slipping through the cracks because nobody has real visibility across teams.\n\nWe built something specifically for remote-first teams at that stage. Might be worth a 15-min look, or is your current setup actually holding up?",
     },
     results: {
       meetingsPerMonth: "8-14",
-      replyRate: "5.2%",
-      estimatedPipelineValue: "$320K-$520K/quarter",
-      timeToFirstMeeting: "4 days after launch",
+      replyRate: "3.5-4.5%",
+      estimatedPipelineValue: "$45K-$90K/quarter",
+      timeToFirstMeeting: "7-10 days after launch",
+    },
+  },
+  {
+    icon: Briefcase,
+    industry: "Business Coaching",
+    company: "Solo business coach expanding into group programs",
+    companySize: "1 coach + 1 VA, ~$400K revenue",
+    challenge:
+      "100% referral-dependent. When referrals slowed down one quarter, revenue dropped 35%. No outbound system, no pipeline visibility, and zero predictability on where the next client was coming from. Needed a reliable way to fill group coaching cohorts.",
+    icp: {
+      title: "Founder / CEO / Owner",
+      company: "Small businesses doing $500K-$5M in revenue",
+      industry: "Professional Services, Local Businesses, Trades",
+      location: "US (English-speaking)",
+      signals: "Recently hired first employees, posting about growing pains on LinkedIn, looking for mentorship or advisory",
+    },
+    infrastructure: {
+      domains: 3,
+      mailboxes: 9,
+      warmupDays: 14,
+      dailySendVolume: "60-90 emails/day",
+    },
+    emailExample: {
+      subject: "Scaling past $500K without burning out?",
+      preview:
+        "Most founders at the $500K-$1M stage hit the same wall: the stuff that got you here won't get you to the next level. You're doing everything, and the business doesn't run without you.\n\nI work with founders at exactly this stage to build the systems and team structure that lets you grow without working 70-hour weeks.\n\nOpen to a quick conversation about what that could look like for {{company}}?",
+    },
+    results: {
+      meetingsPerMonth: "6-10",
+      replyRate: "3.8-5.0%",
+      estimatedPipelineValue: "$30K-$75K/quarter",
+      timeToFirstMeeting: "5-8 days after launch",
     },
   },
   {
     icon: ShoppingBag,
-    industry: "E-Commerce Agency",
-    company: "Shopify Plus development and CRO agency",
-    companySize: "22 employees, $2.1M revenue",
+    industry: "E-Commerce Services",
+    company: "Shopify design and conversion optimization freelancer going agency",
+    companySize: "4 contractors, ~$350K revenue",
     challenge:
-      "Relied entirely on Clutch listings and word-of-mouth. Competitors were outbidding them on paid ads. Tried hiring an SDR who lasted 3 months and booked 5 meetings total before quitting.",
+      "Relied entirely on Upwork and word-of-mouth. Competitors were outbidding on every freelancer platform. Tried cold DMs on Instagram for 2 months and booked 1 call. Needed a professional outbound channel to land retainer clients and move off gig platforms.",
     icp: {
-      title: "Founder / Head of E-Commerce / CMO",
-      company: "DTC brands doing $2M-$20M in annual revenue",
-      industry: "Fashion, Health & Wellness, Home Goods, CPG",
+      title: "Founder / Head of E-Commerce / Marketing Manager",
+      company: "DTC brands doing $500K-$5M in annual revenue",
+      industry: "Fashion, Health & Wellness, Home Goods, Beauty",
       location: "US, UK, Australia",
-      signals: "Running on basic Shopify (not Plus), declining conversion rates, recently raised capital, scaling ad spend",
+      signals: "Running on basic Shopify, low conversion rates compared to industry average, spending on paid ads but not optimizing the store",
     },
     infrastructure: {
-      domains: 5,
-      mailboxes: 20,
+      domains: 3,
+      mailboxes: 12,
       warmupDays: 14,
-      dailySendVolume: "150-220 emails/day",
+      dailySendVolume: "80-130 emails/day",
     },
     emailExample: {
-      subject: "{{company}}'s Shopify store is leaving money on the table",
+      subject: "{{company}}'s Shopify store might be leaving money on the table",
       preview:
-        "Pulled up {{company}}'s site and noticed a few things that are probably costing you 15-20% in lost conversions. The checkout flow alone has 3 friction points we've fixed for brands your size before.\n\nWe just helped a similar DTC brand go from $180K/mo to $290K/mo with a Shopify Plus migration + CRO overhaul.\n\nWorth showing you what we found?",
+        "Pulled up {{company}}'s site and spotted a few things that are probably costing you 10-15% in lost conversions. The checkout flow alone has a couple friction points we've cleaned up for brands at your stage before.\n\nNo pitch, just thought it was worth flagging. Want me to send over what I found?",
     },
     results: {
-      meetingsPerMonth: "18-28",
-      replyRate: "4.1%",
-      estimatedPipelineValue: "$90K-$170K/quarter",
-      timeToFirstMeeting: "3 days after launch",
+      meetingsPerMonth: "10-16",
+      replyRate: "3.2-4.2%",
+      estimatedPipelineValue: "$25K-$60K/quarter",
+      timeToFirstMeeting: "5-8 days after launch",
     },
   },
 ];
@@ -139,9 +147,9 @@ export default function OurWorkPage() {
             <span className="gradient-text">In Action</span>
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
-            Every business is different. Here&apos;s what a Blackline outbound system
-            looks like when we build it for specific industries. Real strategies,
-            real infrastructure, real numbers.
+            Every business is different. Below are examples of how we&apos;d approach
+            outbound for specific industries and business types. Real strategies,
+            real infrastructure, estimated outcomes based on proven benchmarks.
           </p>
         </div>
       </section>
@@ -257,10 +265,10 @@ export default function OurWorkPage() {
                     </div>
                   </div>
 
-                  {/* Projected Results */}
+                  {/* Estimated Results */}
                   <div className="mt-8">
                     <h3 className="mb-3 flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-[#f34749]">
-                      <TrendingUp size={14} /> Projected Results
+                      <TrendingUp size={14} /> Estimated Results
                     </h3>
                     <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
                       <div className="rounded-xl border border-[#f34749]/20 bg-[#f34749]/[0.05] p-4 text-center">
@@ -273,13 +281,16 @@ export default function OurWorkPage() {
                       </div>
                       <div className="rounded-xl border border-[#f34749]/20 bg-[#f34749]/[0.05] p-4 text-center">
                         <p className="text-lg font-bold text-[#f34749]">{study.results.estimatedPipelineValue}</p>
-                        <p className="text-xs text-muted-foreground">Pipeline / Quarter</p>
+                        <p className="text-xs text-muted-foreground">Est. Pipeline / Quarter</p>
                       </div>
                       <div className="rounded-xl border border-[#f34749]/20 bg-[#f34749]/[0.05] p-4 text-center">
                         <p className="text-xl font-bold text-[#f34749]">{study.results.timeToFirstMeeting}</p>
                         <p className="text-xs text-muted-foreground">First Meeting</p>
                       </div>
                     </div>
+                    <p className="mt-3 text-xs text-muted-foreground/70">
+                      * Estimates based on industry benchmarks and proven cold email campaign data. Actual results vary based on offer, market, and sales process.
+                    </p>
                   </div>
                 </div>
               </CardContent>
