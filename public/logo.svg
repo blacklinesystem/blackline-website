@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 40" fill="none">
+  <!-- Red accent bar -->
+  <rect x="0" y="4" width="3" height="32" rx="1.5" fill="#f34749"/>
+  <!-- BLACK in white -->
+  <text x="14" y="31" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="3" fill="#ffffff">BLACK</text>
+  <!-- LINE in brand red -->
+  <text x="131" y="31" font-family="'Inter','Helvetica Neue',Arial,sans-serif" font-size="26" font-weight="700" letter-spacing="3" fill="#f34749">LINE</text>
+  <!-- Red dot -->
+  <circle cx="224" cy="29" r="2.5" fill="#f34749"/>
+</svg>
