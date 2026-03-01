@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { AnimatedCounter } from "@/components/animated-counter";
-import { TestimonialCarousel } from "@/components/testimonial-carousel";
 import {
   Search,
   Server,
@@ -189,15 +188,6 @@ export default function HomePage() {
         <div className="pointer-events-none absolute inset-0">
           <div className="absolute left-1/2 top-0 h-[600px] w-[800px] -translate-x-1/2 rounded-full bg-[#f34749]/[0.07] blur-[120px]" />
         </div>
-        {/* Lion background watermark */}
-        <div
-          className="pointer-events-none absolute inset-0 bg-no-repeat bg-center opacity-[0.04]"
-          style={{
-            backgroundImage: "url('/lion-bg.svg')",
-            backgroundSize: "clamp(500px, 60vw, 900px)",
-            backgroundPosition: "center 20%",
-          }}
-        />
 
         <div className="relative mx-auto max-w-4xl px-4 text-center sm:px-6">
           <Badge
@@ -213,10 +203,11 @@ export default function HomePage() {
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
-            While your competitors are cold-calling into the void, your inbox is filling
-            with &ldquo;let&apos;s talk&rdquo; replies. Full outbound infrastructure &mdash; domains,
-            mailboxes, leads, and AI-written emails &mdash; live in 14 days.
-            You wake up to booked meetings. That&apos;s it. That&apos;s the pitch.
+            Your competitors are still cold-calling into the void. Meanwhile,
+            your inbox fills with &ldquo;let&apos;s talk&rdquo; replies from decision-makers
+            who actually want to hear from you. We build your entire outbound engine
+            and launch it in 14 days. Domains, mailboxes, leads, copy, campaigns.
+            You just show up to the meetings.
           </p>
 
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
@@ -281,15 +272,6 @@ export default function HomePage() {
 
       {/* ── How It Works ── */}
       <section className="relative py-20 sm:py-28">
-        {/* Lion background — right side, subtle */}
-        <div
-          className="pointer-events-none absolute inset-0 bg-no-repeat opacity-[0.03]"
-          style={{
-            backgroundImage: "url('/lion-bg.svg')",
-            backgroundSize: "clamp(400px, 45vw, 700px)",
-            backgroundPosition: "95% center",
-          }}
-        />
         <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
           <div className="text-center">
             <Badge
@@ -385,39 +367,8 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── Testimonials ── */}
-      <section className="py-20 sm:py-28">
-        <div className="mx-auto max-w-6xl px-4 sm:px-6">
-          <div className="text-center">
-            <Badge
-              variant="outline"
-              className="mb-4 border-[#f34749]/30 text-[#f34749]"
-            >
-              Results
-            </Badge>
-            <h2 className="text-3xl font-bold text-white sm:text-4xl">
-              Don&apos;t Take Our Word For It
-            </h2>
-            <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
-              Real founders. Real pipelines. Real revenue.
-            </p>
-          </div>
-          <div className="mt-14">
-            <TestimonialCarousel />
-          </div>
-        </div>
-      </section>
-
       {/* ── Final CTA ── */}
       <section className="relative border-t border-white/[0.06] bg-white/[0.02] py-20 sm:py-28 overflow-hidden">
-        {/* Lion centered behind CTA */}
-        <div
-          className="pointer-events-none absolute inset-0 bg-no-repeat bg-center opacity-[0.03]"
-          style={{
-            backgroundImage: "url('/lion-bg.svg')",
-            backgroundSize: "clamp(300px, 40vw, 550px)",
-          }}
-        />
         <div className="relative mx-auto max-w-3xl px-4 text-center sm:px-6">
           <h2 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
             Your Next 50 Clients Are Already in Their Inbox
@@ -438,7 +389,7 @@ export default function HomePage() {
             </Button>
           </div>
           <p className="mt-4 text-xs text-muted-foreground">
-            30-minute call. No obligation. No sales pitch. Just strategy.
+            60-minute call. No obligation. No sales pitch. Just strategy.
           </p>
         </div>
       </section>

@@ -21,15 +21,15 @@ export default function ContactPage() {
             <span className="gradient-text">Build Itself</span>
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
-            Grab 30 minutes on our calendar. We&apos;ll dig into your business, your buyers,
-            and your goals &mdash; then map out exactly what a custom outbound system
+            Grab an hour on our calendar. We&apos;ll dig into your business, your buyers,
+            and your goals, then map out exactly what a custom outbound system
             looks like for you. No pitch deck. No pressure. Just a real conversation
             about how to fill your pipeline.
           </p>
 
           <div className="mt-6 flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
             <span className="flex items-center gap-2">
-              <Clock size={16} className="text-[#f34749]" /> 30-min strategy session
+              <Clock size={16} className="text-[#f34749]" /> 60-min strategy session
             </span>
             <span className="flex items-center gap-2">
               <Shield size={16} className="text-[#f34749]" /> Zero obligation
@@ -46,7 +46,7 @@ export default function ContactPage() {
         <div className="overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.02]">
           {/* Replace "your-cal-link" with your actual Cal.com username/event */}
           <iframe
-            src="https://cal.com/your-cal-link/strategy-call"
+            src="https://cal.com/nicholastochev/60min?embed=true&theme=dark"
             className="h-[700px] w-full border-0"
             title="Book a Strategy Call"
             loading="lazy"
@@ -63,7 +63,7 @@ export default function ContactPage() {
             </a>
           </p>
           <p className="mt-2 text-xs text-muted-foreground">
-            Calendar synced with Google Calendar. You&apos;ll get a confirmation email with meeting details instantly.
+            You&apos;ll get a confirmation email with meeting details instantly.
           </p>
         </div>
       </section>
