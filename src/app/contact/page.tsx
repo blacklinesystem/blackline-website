@@ -3,9 +3,9 @@ import { Badge } from "@/components/ui/badge";
 import { Mail, Clock, Shield, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Book a Strategy Call",
+  title: "Book a Strategy Call — Blackline Cold Email Systems",
   description:
-    "Book a free 60-minute strategy session with Blackline. We'll map out your custom AI cold email system — no obligation, no pitch deck.",
+    "Book a free 60-minute strategy session with Blackline. We'll map out your custom AI cold email system — domains, mailboxes, leads, copy. No obligation, no pitch deck.",
   alternates: { canonical: "/contact" },
 };
 

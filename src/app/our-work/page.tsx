@@ -20,7 +20,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Our Work",
+  title: "Our Work — Blackline Cold Email Case Studies",
   description:
     "See how Blackline builds AI cold email systems for B2B SaaS, business coaches, and e-commerce brands. Real strategies, infrastructure, and estimated results.",
   alternates: { canonical: "/our-work" },

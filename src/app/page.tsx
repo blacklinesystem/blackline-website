@@ -20,9 +20,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Blackline | AI Cold Email Systems That Print Pipeline",
+  title: "Blackline | AI Cold Email Systems That Book Meetings",
   description:
-    "We build your entire outbound engine — domains, mailboxes, leads, copy, campaigns — and launch it in 14 days. You just show up to the meetings.",
+    "Blackline builds done-for-you AI cold email systems. Domains, mailboxes, leads, copy, and campaigns — launched in 14 days. You just show up to the meetings.",
   alternates: { canonical: "/" },
 };
 
@@ -82,8 +82,8 @@ export default function HomePage() {
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
             Your competitors are still cold-calling into the void. Meanwhile,
             your inbox fills with &ldquo;let&apos;s talk&rdquo; replies from decision-makers
-            who actually want to hear from you. We build your entire outbound engine
-            and launch it in 14 days. Domains, mailboxes, leads, copy, campaigns.
+            who actually want to hear from you. Blackline builds your entire outbound engine
+            and launches it in 14 days. Domains, mailboxes, leads, copy, campaigns.
             You just show up to the meetings.
           </p>
 

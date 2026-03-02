@@ -10,14 +10,13 @@ export function Footer() {
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/logo.svg"
-                alt="Blackline"
+                alt="Blackline - AI Cold Email Systems"
                 className="h-7 w-auto"
               />
             </Link>
             <p className="mt-3 text-sm text-muted-foreground">
-              Your competitors are still cold-calling.
-              <br />
-              Your pipeline runs on autopilot.
+              Blackline builds done-for-you AI cold email systems
+              that book meetings on autopilot. Launched in 14 days.
             </p>
           </div>
 

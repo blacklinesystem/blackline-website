@@ -23,7 +23,7 @@ export function Navbar() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/logo.svg"
-            alt="Blackline"
+            alt="Blackline - AI Cold Email Systems"
             className="h-7 w-auto sm:h-8"
           />
         </Link>

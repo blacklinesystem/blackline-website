@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   description:
     "Done-for-you AI cold email infrastructure. Launched in 14 days. We build the domains, mailboxes, leads, and AI-written emails so you just show up to meetings.",
   keywords: [
+    "Blackline",
+    "Blackline cold email",
+    "Blackline email system",
     "cold email agency",
     "AI cold email",
     "cold email infrastructure",
@@ -68,8 +71,8 @@ export const metadata: Metadata = {
     canonical: siteUrl,
   },
   icons: {
-    icon: "/favicon.svg",
-    apple: "/favicon.svg",
+    icon: "/icon",
+    apple: "/icon",
   },
 };
 
@@ -115,6 +118,69 @@ export default function RootLayout({
                   "Custom AI cold email system built and launched in 14 days",
                 availability: "https://schema.org/InStock",
               },
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "FAQPage",
+              mainEntity: [
+                {
+                  "@type": "Question",
+                  name: "What is Blackline?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Blackline is a done-for-you AI cold email agency. We build complete outbound systems — domains, mailboxes, verified leads, and AI-written email campaigns — and launch them in 14 days so you can focus on closing deals.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "How long does it take Blackline to set up a cold email system?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Blackline launches your complete cold email system in 14 days. This includes domain setup, mailbox authentication, lead sourcing, AI copywriting, and campaign launch with real-time monitoring.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "What does Blackline's cold email service include?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Every Blackline engagement includes: deep ICP research, dedicated sending domains with full DNS authentication, warmed mailboxes, verified and enriched lead lists, AI-personalized email sequences, campaign monitoring, A/B testing, and ongoing optimization.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "How is Blackline different from other cold email agencies?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Blackline builds the entire infrastructure from scratch — we don't use shared domains or recycled lead lists. Every system is custom-built for your business, your ICP, and your market. We use AI to write personalized copy and continuously optimize campaigns for maximum reply rates.",
+                  },
+                },
+                {
+                  "@type": "Question",
+                  name: "What kind of results can I expect from Blackline?",
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: "Results vary based on your offer, market, and sales process. Our systems are built to target 3-5% reply rates and deliver qualified meetings consistently. We provide estimated projections based on industry benchmarks during your strategy call.",
+                  },
+                },
+              ],
+            }),
+          }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              name: "Blackline",
+              alternateName: "Blackline Cold Email Systems",
+              url: siteUrl,
             }),
           }}
         />

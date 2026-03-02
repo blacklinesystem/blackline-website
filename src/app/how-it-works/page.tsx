@@ -13,9 +13,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "How It Works",
+  title: "How It Works — Blackline's 5-Step Cold Email System",
   description:
-    "From zero to booked meetings in 14 days. See our 5-step process for building custom AI cold email systems — strategy, infrastructure, leads, copy, and launch.",
+    "See how Blackline goes from zero to booked meetings in 14 days. Our 5-step process: strategy, infrastructure, leads, AI copy, and launch. Done-for-you cold email systems.",
   alternates: { canonical: "/how-it-works" },
 };
 
