@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blacklinesystem.vercel.app/sitemap.xml
+Sitemap: https://blacklinesystem.com/sitemap.xml

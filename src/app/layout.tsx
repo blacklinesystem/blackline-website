@@ -9,7 +9,7 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-const siteUrl = "https://blacklinesystem.vercel.app";
+const siteUrl = "https://blacklinesystem.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
