@@ -12,17 +12,16 @@ import {
   PenTool,
   Rocket,
   ArrowRight,
-  Shield,
   Clock,
   Zap,
   Calculator,
-  Sparkles,
+  CalendarCheck,
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Blackline | AI Cold Email Systems That Book Meetings",
+  title: "Blackline | AI Cold Email Systems for Coaches & Consultants",
   description:
-    "Blackline builds done-for-you AI cold email systems. Domains, mailboxes, leads, copy, and campaigns — launched in 14 days. You just show up to the meetings.",
+    "Blackline builds done-for-you AI cold email systems that book qualified discovery calls for coaches and consultants. Domains, mailboxes, leads, copy, and campaigns — launched in 14 days.",
   alternates: { canonical: "/" },
 };
 
@@ -30,28 +29,28 @@ export const metadata: Metadata = {
 const steps = [
   {
     icon: Search,
-    title: "Deep-Dive Strategy",
-    desc: "We reverse-engineer your best clients. Who are they, what keeps them up at night, and exactly how to get their attention. No generic templates. A playbook built from your wins.",
+    title: "ICP Workshop & Strategy",
+    desc: "We get on a call and reverse-engineer your best clients. Who are they, what problems are they trying to solve, and exactly how to reach them. The output is a precise ICP document and outbound playbook built specifically around your coaching or consulting offer.",
   },
   {
     icon: Server,
     title: "Bulletproof Infrastructure",
-    desc: "Dedicated domains, authenticated mailboxes, warmup sequences that actually work. We build the engine that lands in the primary inbox, not the promotions tab.",
+    desc: "Dedicated sending domains, authenticated mailboxes, and warmup sequences that build real inbox trust. We build the technical foundation that lands in the primary inbox — not spam — before a single campaign email goes out.",
   },
   {
     icon: Users,
-    title: "Surgical Lead Sourcing",
-    desc: "Thousands of verified decision-makers who match your ideal buyer profile. Enriched, segmented, and ready to hear from you. No spray-and-pray.",
+    title: "Targeted Prospect Sourcing",
+    desc: "500+ verified decision-makers who match your exact ICP, sourced from premium databases and triple-verified for deliverability. Enriched with personalization data so every email feels like it was written for that one person.",
   },
   {
     icon: PenTool,
-    title: "Copy That Converts",
-    desc: "AI-crafted emails that read like they were written by your sharpest sales rep at 2am on a caffeine high. Personal, punchy, impossible to ignore.",
+    title: "AI-Powered Email Sequences",
+    desc: "Multi-step sequences crafted by AI and refined by us. Personal, punchy, and designed to start real conversations — not trigger spam filters. Every follow-up adds value instead of annoying. The goal is replies, not volume.",
   },
   {
     icon: Rocket,
-    title: "Launch & Dominate",
-    desc: "Campaigns go live, replies start flowing, and we optimize every variable in real-time. Open rates, reply rates, meeting rates. We obsess so you don't have to.",
+    title: "Launch & Continuous Optimization",
+    desc: "Campaigns go live with controlled sending ramps and real-time monitoring. We track opens, replies, and meetings booked — then optimize every variable. New subject lines, tighter copy, better targeting. The system gets sharper every week.",
   },
 ];
 
@@ -71,20 +70,20 @@ export default function HomePage() {
             variant="outline"
             className="mb-6 border-[#f34749]/30 text-[#f34749]"
           >
-            <Zap size={12} className="mr-1" /> Cold Email Systems Built to Print Pipeline
+            <Zap size={12} className="mr-1" /> Done-For-You Client Acquisition for Coaches &amp; Consultants
           </Badge>
 
           <h1 className="text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-            We Build the Machine.{" "}
-            <span className="gradient-text">You Close the Deals.</span>
+            We Fill Your Calendar.{" "}
+            <span className="gradient-text">You Coach Your Clients.</span>
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
-            Your competitors are still cold-calling into the void. Meanwhile,
-            your inbox fills with &ldquo;let&apos;s talk&rdquo; replies from decision-makers
-            who actually want to hear from you. Blackline builds your entire outbound engine
-            and launches it in 14 days. Domains, mailboxes, leads, copy, campaigns.
-            You just show up to the meetings.
+            Most coaches and consultants depend on referrals and LinkedIn posts to get clients.
+            That&apos;s unpredictable. Blackline builds a done-for-you AI cold email system that
+            books qualified discovery calls on autopilot — so you have a real pipeline, not just hope.
+            We handle everything: domains, mailboxes, lead sourcing, AI copy, and ongoing campaigns.
+            You just show up to the calls.
           </p>
 
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
@@ -109,13 +108,13 @@ export default function HomePage() {
 
           <div className="mt-8 flex flex-wrap items-center justify-center gap-6 text-xs text-muted-foreground">
             <span className="flex items-center gap-1">
-              <Shield size={14} className="text-[#f34749]" /> 14-Day Launch Guarantee
+              <CalendarCheck size={14} className="text-[#f34749]" /> 14-Day System Launch
             </span>
             <span className="flex items-center gap-1">
-              <Clock size={14} className="text-[#f34749]" /> No Contracts
+              <Clock size={14} className="text-[#f34749]" /> No Long-Term Contracts
             </span>
             <span className="flex items-center gap-1">
-              <Sparkles size={14} className="text-[#f34749]" /> Custom-Built For You
+              <Zap size={14} className="text-[#f34749]" /> Custom-Built For Your Offer
             </span>
           </div>
         </div>
@@ -125,13 +124,13 @@ export default function HomePage() {
       <section className="border-y border-white/[0.06] bg-white/[0.02] py-16">
         <div className="mx-auto grid max-w-5xl grid-cols-1 gap-10 px-4 sm:grid-cols-4 sm:px-6">
           <AnimatedCounter
-            end={50}
-            suffix="K+"
-            label="Cold Emails Sent Monthly"
+            end={500}
+            suffix="+"
+            label="Targeted Prospects Per Engagement"
           />
           <AnimatedCounter
-            end={97}
-            suffix="%"
+            end={92}
+            suffix="%+"
             label="Inbox Placement Rate"
           />
           <AnimatedCounter
@@ -140,9 +139,9 @@ export default function HomePage() {
             label="From Zero to Live"
           />
           <AnimatedCounter
-            end={4}
-            suffix=".1%"
-            label="Avg. Reply Rate"
+            end={3}
+            suffix="-5%"
+            label="Targeted Reply Rate"
           />
         </div>
       </section>
@@ -158,11 +157,11 @@ export default function HomePage() {
               The Playbook
             </Badge>
             <h2 className="text-3xl font-bold text-white sm:text-4xl">
-              Five Steps. Full Pipeline.
+              Five Steps. A Full Pipeline.
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
-              From blank slate to booked meetings in under three weeks.
-              No guesswork. No wasted months figuring it out.
+              From blank slate to booked discovery calls in under three weeks.
+              Every component built specifically around your coaching or consulting offer.
             </p>
           </div>
 
@@ -204,7 +203,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── ROI Analyzer (replaces pricing) ── */}
+      {/* ── ROI Analyzer ── */}
       <section className="border-t border-white/[0.06] bg-white/[0.02] py-20 sm:py-28">
         <div className="mx-auto max-w-5xl px-4 sm:px-6">
           <div className="text-center">
@@ -215,11 +214,11 @@ export default function HomePage() {
               <Calculator size={12} className="mr-1" /> ROI Analyzer
             </Badge>
             <h2 className="text-3xl font-bold text-white sm:text-4xl">
-              See What&apos;s Sitting on the Table
+              What&apos;s Your Pipeline Worth?
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
-              Plug in your numbers. See what a real outbound system could add to
-              your bottom line. No fluff &mdash; just math.
+              Plug in your close rate and average client value. See what adding
+              consistent discovery calls could do to your revenue. No fluff &mdash; just math.
             </p>
           </div>
 
@@ -238,7 +237,7 @@ export default function HomePage() {
               </Link>
             </Button>
             <p className="mt-3 text-xs text-muted-foreground">
-              Every engagement is custom-scoped. We build the system around YOUR numbers, not a one-size-fits-all package.
+              Every engagement is custom-scoped around your offer, your ICP, and your market.
             </p>
           </div>
         </div>
@@ -248,11 +247,11 @@ export default function HomePage() {
       <section className="relative border-t border-white/[0.06] bg-white/[0.02] py-20 sm:py-28 overflow-hidden">
         <div className="relative mx-auto max-w-3xl px-4 text-center sm:px-6">
           <h2 className="text-3xl font-bold text-white sm:text-4xl lg:text-5xl">
-            Your Next 50 Clients Are Already in Their Inbox
+            Your Next Clients Are Already in Their Inbox
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-lg text-muted-foreground">
             The only question is whether they&apos;re hearing from you or your competitor.
-            Book the call. Let&apos;s build the machine.
+            Book the strategy session. We&apos;ll show you exactly what your system would look like.
           </p>
           <div className="mt-8 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <Button
@@ -266,7 +265,7 @@ export default function HomePage() {
             </Button>
           </div>
           <p className="mt-4 text-xs text-muted-foreground">
-            60-minute call. No obligation. No sales pitch. Just strategy.
+            60-minute call. No obligation. No sales pitch. Just a real look at what your pipeline could be.
           </p>
         </div>
       </section>

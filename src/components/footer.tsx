@@ -16,7 +16,8 @@ export function Footer() {
             </Link>
             <p className="mt-3 text-sm text-muted-foreground">
               Blackline builds done-for-you AI cold email systems
-              that book meetings on autopilot. Launched in 14 days.
+              that book qualified discovery calls for coaches and consultants.
+              Custom-built and launched in 14 days.
             </p>
           </div>
 
@@ -33,11 +34,11 @@ export function Footer() {
           <div>
             <h4 className="mb-3 text-sm font-semibold text-white">What We Build</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
+              <li>ICP Workshop &amp; Strategy</li>
               <li>Outbound Infrastructure</li>
               <li>Targeted Lead Sourcing</li>
-              <li>AI-Powered Copy</li>
+              <li>AI-Powered Email Copy</li>
               <li>Campaign Management</li>
-              <li>Deliverability Systems</li>
             </ul>
           </div>
 

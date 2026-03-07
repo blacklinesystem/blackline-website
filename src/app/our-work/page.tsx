@@ -10,118 +10,118 @@ import {
   Mail,
   Users,
   BarChart3,
-  Building2,
   Briefcase,
-  ShoppingBag,
   Globe,
   CheckCircle2,
   TrendingUp,
   Send,
+  GraduationCap,
+  LineChart,
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Our Work — Blackline Cold Email Case Studies",
+  title: "Our Work — Blackline Cold Email Systems for Coaches & Consultants",
   description:
-    "See how Blackline builds AI cold email systems for B2B SaaS, business coaches, and e-commerce brands. Real strategies, infrastructure, and estimated results.",
+    "See how Blackline builds AI cold email systems for business coaches, executive coaches, and consultants. Real strategies, real infrastructure, and realistic results.",
   alternates: { canonical: "/our-work" },
 };
 
 /* ── Case Study Data ── */
 const caseStudies = [
   {
-    icon: Building2,
-    industry: "B2B SaaS",
-    company: "Early-stage task management tool for remote teams",
-    companySize: "Seed-funded, 8 employees",
-    challenge:
-      "Two co-founders splitting time between building product and doing outbound. CEO spending 15+ hours a week on LinkedIn DMs and cold emails with a 0.3% reply rate. Pipeline was unpredictable and they needed consistent demos to hit their next funding milestone.",
-    icp: {
-      title: "Head of Operations / Team Lead",
-      company: "Remote-first startups and agencies (15-150 employees)",
-      industry: "SaaS, Digital Agencies, Professional Services",
-      location: "US & Canada",
-      signals: "Recently went remote-first, growing headcount, using spreadsheets or basic tools for project tracking",
-    },
-    infrastructure: {
-      domains: 3,
-      mailboxes: 12,
-      warmupDays: 14,
-      dailySendVolume: "80-120 emails/day",
-    },
-    emailExample: {
-      subject: "{{firstName}}, quick thought on how {{company}} tracks projects remotely",
-      preview:
-        "Noticed {{company}} has been growing the remote team. Once you're past 20 people, most ops leads say the same thing: things start slipping through the cracks because nobody has real visibility across teams.\n\nWe built something specifically for remote-first teams at that stage. Might be worth a 15-min look, or is your current setup actually holding up?",
-    },
-    results: {
-      meetingsPerMonth: "8-14",
-      replyRate: "3.5-4.5%",
-      estimatedPipelineValue: "$45K-$90K/quarter",
-      timeToFirstMeeting: "7-10 days after launch",
-    },
-  },
-  {
     icon: Briefcase,
     industry: "Business Coaching",
     company: "Solo business coach expanding into group programs",
-    companySize: "1 coach + 1 VA, ~$400K revenue",
+    companySize: "1 coach + 1 VA · ~$400K annual revenue",
     challenge:
-      "100% referral-dependent. When referrals slowed down one quarter, revenue dropped 35%. No outbound system, no pipeline visibility, and zero predictability on where the next client was coming from. Needed a reliable way to fill group coaching cohorts.",
+      "100% referral-dependent. When referrals slowed one quarter, revenue dropped 35%. No predictable pipeline, no visibility into where the next client was coming from. The coach needed a consistent way to fill group coaching cohorts without relying on word-of-mouth or constantly posting on social media.",
     icp: {
       title: "Founder / CEO / Owner",
-      company: "Small businesses doing $500K-$5M in revenue",
-      industry: "Professional Services, Local Businesses, Trades",
-      location: "US (English-speaking)",
-      signals: "Recently hired first employees, posting about growing pains on LinkedIn, looking for mentorship or advisory",
+      company: "Small businesses doing $500K–$2M in revenue",
+      industry: "Professional Services, Trades, Local Businesses",
+      location: "United States (English-speaking)",
+      signals: "Recently hired first employees, posting about growing pains on LinkedIn, actively looking for mentorship or a peer advisory group",
     },
     infrastructure: {
       domains: 3,
       mailboxes: 9,
       warmupDays: 14,
-      dailySendVolume: "60-90 emails/day",
+      dailySendVolume: "60–90 emails/day",
     },
     emailExample: {
       subject: "Scaling past $500K without burning out?",
       preview:
-        "Most founders at the $500K-$1M stage hit the same wall: the stuff that got you here won't get you to the next level. You're doing everything, and the business doesn't run without you.\n\nI work with founders at exactly this stage to build the systems and team structure that lets you grow without working 70-hour weeks.\n\nOpen to a quick conversation about what that could look like for {{company}}?",
+        "Most founders at the $500K–$1M stage hit the same wall: the stuff that got you here won't get you to the next level. You're doing everything, and the business doesn't run without you.\n\nI work with founders at exactly this stage to build the systems and team structure that lets you grow without 70-hour weeks.\n\nOpen to a quick conversation about what that could look like for {{company}}?",
     },
     results: {
-      meetingsPerMonth: "6-10",
-      replyRate: "3.8-5.0%",
-      estimatedPipelineValue: "$30K-$75K/quarter",
-      timeToFirstMeeting: "5-8 days after launch",
+      callsPerMonth: "6–10",
+      replyRate: "3.5–5.0%",
+      estimatedPipelineValue: "$30K–$60K/quarter",
+      timeToFirstCall: "5–8 days after launch",
     },
   },
   {
-    icon: ShoppingBag,
-    industry: "E-Commerce Services",
-    company: "Shopify design and conversion optimization freelancer going agency",
-    companySize: "4 contractors, ~$350K revenue",
+    icon: GraduationCap,
+    industry: "Executive & Leadership Coaching",
+    company: "Executive coach targeting C-suite and VP-level leaders",
+    companySize: "1 coach · $250K–$500K revenue",
     challenge:
-      "Relied entirely on Upwork and word-of-mouth. Competitors were outbidding on every freelancer platform. Tried cold DMs on Instagram for 2 months and booked 1 call. Needed a professional outbound channel to land retainer clients and move off gig platforms.",
+      "Strong reputation within a small network but no way to scale beyond it. Referrals from past clients were inconsistent and unpredictable. The coach had a premium offer ($10K–$25K engagements) but no systematic way to reach the type of executives who would pay that fee — and no time to prospect manually.",
     icp: {
-      title: "Founder / Head of E-Commerce / Marketing Manager",
-      company: "DTC brands doing $500K-$5M in annual revenue",
-      industry: "Fashion, Health & Wellness, Home Goods, Beauty",
-      location: "US, UK, Australia",
-      signals: "Running on basic Shopify, low conversion rates compared to industry average, spending on paid ads but not optimizing the store",
+      title: "CEO / COO / VP / Director",
+      company: "Established companies with 50–500 employees",
+      industry: "Financial Services, Technology, Healthcare, Professional Services",
+      location: "US & Canada",
+      signals: "Recent promotion, company in growth or transition phase, actively sharing leadership content on LinkedIn, new to a senior role within the past 12 months",
     },
     infrastructure: {
       domains: 3,
-      mailboxes: 12,
+      mailboxes: 9,
       warmupDays: 14,
-      dailySendVolume: "80-130 emails/day",
+      dailySendVolume: "50–75 emails/day",
     },
     emailExample: {
-      subject: "{{company}}'s Shopify store might be leaving money on the table",
+      subject: "Leading {{company}} through the next stage",
       preview:
-        "Pulled up {{company}}'s site and spotted a few things that are probably costing you 10-15% in lost conversions. The checkout flow alone has a couple friction points we've cleaned up for brands at your stage before.\n\nNo pitch, just thought it was worth flagging. Want me to send over what I found?",
+        "Saw you recently stepped into the [COO] role at {{company}}. The first 90 days of a leadership transition are usually where the biggest decisions get made — and where most leaders are working without a sounding board.\n\nI work with senior leaders at that inflection point. Not a course, not a workshop — one-on-one coaching focused on the real decisions in front of you.\n\nWould a quick conversation be useful?",
     },
     results: {
-      meetingsPerMonth: "10-16",
-      replyRate: "3.2-4.2%",
-      estimatedPipelineValue: "$25K-$60K/quarter",
-      timeToFirstMeeting: "5-8 days after launch",
+      callsPerMonth: "5–8",
+      replyRate: "3.0–4.5%",
+      estimatedPipelineValue: "$50K–$150K/quarter",
+      timeToFirstCall: "7–12 days after launch",
+    },
+  },
+  {
+    icon: LineChart,
+    industry: "Sales & Revenue Consulting",
+    company: "Sales consultant helping B2B companies build outbound teams",
+    companySize: "2-person consultancy · ~$600K revenue",
+    challenge:
+      "100% inbound from a newsletter and LinkedIn presence. Revenue was growing but entirely dependent on the founder showing up online every day. One team member handled delivery and one drove acquisition — but the acquisition side had no leverage. Needed a consistent outbound channel that didn't require constant content creation.",
+    icp: {
+      title: "VP of Sales / Head of Revenue / Founder",
+      company: "B2B companies doing $1M–$10M in revenue",
+      industry: "SaaS, Professional Services, Agencies",
+      location: "US & Canada",
+      signals: "Recently hired first SDR, posted about pipeline problems, mentioned missing quota on LinkedIn, or recently raised a seed/Series A round",
+    },
+    infrastructure: {
+      domains: 4,
+      mailboxes: 12,
+      warmupDays: 14,
+      dailySendVolume: "80–120 emails/day",
+    },
+    emailExample: {
+      subject: "{{company}}'s outbound motion",
+      preview:
+        "Noticed {{company}} recently brought on a couple of SDRs. Most early-stage outbound teams hit the same issues in months 1–3: inconsistent messaging, no clear ICP, and reps who are winging it on sequencing.\n\nI help B2B companies build the process, playbook, and coaching system that makes those first reps actually productive — instead of expensive experiments.\n\nWorth a 20-minute call to see if it's a fit?",
+    },
+    results: {
+      callsPerMonth: "8–14",
+      replyRate: "3.2–4.8%",
+      estimatedPipelineValue: "$60K–$120K/quarter",
+      timeToFirstCall: "5–10 days after launch",
     },
   },
 ];
@@ -143,13 +143,13 @@ export default function OurWorkPage() {
             <Zap size={12} className="mr-1" /> What We Build
           </Badge>
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
-            See the System{" "}
+            The System{" "}
             <span className="gradient-text">In Action</span>
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
-            Every business is different. Below are examples of how we&apos;d approach
-            outbound for specific industries and business types. Real strategies,
-            real infrastructure, estimated outcomes based on proven benchmarks.
+            Below are examples of how we approach outbound for specific coaching
+            and consulting niches. Real strategies, real infrastructure,
+            and realistic outcomes based on what the system is built to deliver.
           </p>
         </div>
       </section>
@@ -196,7 +196,7 @@ export default function OurWorkPage() {
                     {/* ICP */}
                     <div>
                       <h3 className="mb-3 flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-[#f34749]">
-                        <Users size={14} /> Ideal Customer Profile
+                        <Users size={14} /> Ideal Client Profile
                       </h3>
                       <div className="space-y-2 rounded-xl border border-white/[0.06] bg-white/[0.03] p-4">
                         <div>
@@ -204,7 +204,7 @@ export default function OurWorkPage() {
                           <p className="text-sm text-white">{study.icp.title}</p>
                         </div>
                         <div>
-                          <span className="text-xs text-muted-foreground">Company Size</span>
+                          <span className="text-xs text-muted-foreground">Company Stage</span>
                           <p className="text-sm text-white">{study.icp.company}</p>
                         </div>
                         <div>
@@ -212,7 +212,7 @@ export default function OurWorkPage() {
                           <p className="text-sm text-white">{study.icp.industry}</p>
                         </div>
                         <div>
-                          <span className="text-xs text-muted-foreground">Location</span>
+                          <span className="text-xs text-muted-foreground">Geography</span>
                           <p className="text-sm text-white">{study.icp.location}</p>
                         </div>
                         <div>
@@ -268,12 +268,12 @@ export default function OurWorkPage() {
                   {/* Estimated Results */}
                   <div className="mt-8">
                     <h3 className="mb-3 flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-[#f34749]">
-                      <TrendingUp size={14} /> Estimated Results
+                      <TrendingUp size={14} /> Projected Results
                     </h3>
                     <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
                       <div className="rounded-xl border border-[#f34749]/20 bg-[#f34749]/[0.05] p-4 text-center">
-                        <p className="text-xl font-bold text-[#f34749]">{study.results.meetingsPerMonth}</p>
-                        <p className="text-xs text-muted-foreground">Meetings / Month</p>
+                        <p className="text-xl font-bold text-[#f34749]">{study.results.callsPerMonth}</p>
+                        <p className="text-xs text-muted-foreground">Discovery Calls / Month</p>
                       </div>
                       <div className="rounded-xl border border-[#f34749]/20 bg-[#f34749]/[0.05] p-4 text-center">
                         <p className="text-xl font-bold text-[#f34749]">{study.results.replyRate}</p>
@@ -284,12 +284,12 @@ export default function OurWorkPage() {
                         <p className="text-xs text-muted-foreground">Est. Pipeline / Quarter</p>
                       </div>
                       <div className="rounded-xl border border-[#f34749]/20 bg-[#f34749]/[0.05] p-4 text-center">
-                        <p className="text-xl font-bold text-[#f34749]">{study.results.timeToFirstMeeting}</p>
-                        <p className="text-xs text-muted-foreground">First Meeting</p>
+                        <p className="text-xl font-bold text-[#f34749]">{study.results.timeToFirstCall}</p>
+                        <p className="text-xs text-muted-foreground">First Discovery Call</p>
                       </div>
                     </div>
                     <p className="mt-3 text-xs text-muted-foreground/70">
-                      * Estimates based on industry benchmarks and proven cold email campaign data. Actual results vary based on offer, market, and sales process.
+                      * Projections based on industry benchmarks and typical cold email performance. Actual results vary based on offer, market, and sales process.
                     </p>
                   </div>
                 </div>
@@ -298,7 +298,7 @@ export default function OurWorkPage() {
           ))}
         </div>
 
-        {/* What You Get Summary */}
+        {/* What Every Engagement Includes */}
         <div className="mt-20">
           <div className="text-center">
             <Badge
@@ -311,22 +311,22 @@ export default function OurWorkPage() {
               The Full Stack
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
-              No matter your industry, every Blackline system is built with
-              the same battle-tested components.
+              No matter your niche, every Blackline system is built with the
+              same battle-tested components and tools.
             </p>
           </div>
 
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
-              "Deep ICP research and buyer persona mapping",
+              "ICP workshop and buyer persona mapping (live call)",
               "Dedicated sending domains with full DNS authentication",
               "Warmed mailboxes ready for primary inbox delivery",
-              "Verified, enriched lead lists matched to your ICP",
-              "AI-personalized email sequences that feel handwritten",
-              "Real-time campaign monitoring and optimization",
-              "A/B testing on subject lines, copy, and send times",
-              "Detailed analytics dashboard with reply tracking",
-              "Ongoing strategy calls to refine and scale",
+              "500+ verified, enriched leads matched to your ICP",
+              "AI-personalized email sequences (Claude API)",
+              "Make.com automation for real-time reply handling",
+              "A/B testing on subject lines, copy, and send timing",
+              "Deliverability monitoring with weekly performance reports",
+              "Ongoing list refresh and campaign optimization",
             ].map((item, i) => (
               <div
                 key={i}
@@ -345,8 +345,8 @@ export default function OurWorkPage() {
             Ready to See What This Looks Like for Your Business?
           </h2>
           <p className="mx-auto mt-3 max-w-lg text-muted-foreground">
-            Every system is custom-built. Book a strategy session and we&apos;ll
-            map out exactly what your outbound engine looks like.
+            Every system is custom-built around your offer and your ideal client.
+            Book a strategy session and we&apos;ll map out exactly what your outbound engine looks like.
           </p>
           <div className="mt-6">
             <Button
