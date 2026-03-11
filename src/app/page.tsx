@@ -29,7 +29,7 @@ import {
 export const metadata: Metadata = {
   title: "Blackline | AI Cold Email Systems for Business Coaches",
   description:
-    "Done-for-you AI cold email systems that book 8–15 qualified discovery calls per month for business coaches. We build the entire engine — domains, mailboxes, leads, and AI-personalized sequences. You close the calls.",
+    "Done-for-you AI cold email systems that book 8–15 qualified discovery calls per month for business coaches. We build the entire engine: domains, mailboxes, leads, and AI-personalized sequences. You close the calls.",
   alternates: { canonical: "/" },
 };
 
@@ -38,17 +38,17 @@ const steps = [
   {
     icon: Search,
     title: "ICP Workshop & Strategy",
-    desc: "We reverse-engineer your best clients. Who are they, what problems are they trying to solve, and exactly how to reach them. The output is a precise ICP document and outbound playbook built specifically around your coaching offer — not a template.",
+    desc: "We reverse-engineer your best clients. Who are they, what problems are they trying to solve, and exactly how to reach them. The output is a precise ICP document and outbound playbook built specifically around your coaching offer. Not a template.",
   },
   {
     icon: Server,
     title: "Infrastructure Build",
-    desc: "10–15 warmed email domains, 30–45 dedicated email accounts, and enterprise sending tools built for deliverability. Full SPF, DKIM, and DMARC authentication. This isn't your Gmail account — this is a dedicated outbound engine that lands in the primary inbox.",
+    desc: "10–15 warmed email domains, 30–45 dedicated email accounts, and enterprise sending tools built for deliverability. Full SPF, DKIM, and DMARC authentication. This isn't your Gmail account. This is a dedicated outbound engine that lands in the primary inbox.",
   },
   {
     icon: Users,
     title: "Targeting & Prospect Research",
-    desc: "We identify your ideal clients — not just 'coaches' but YOUR specific niche — build targeted prospect lists, and validate contact data before we send a single email. 500–1,000+ verified contacts per month, enriched with personalization data.",
+    desc: "We identify your ideal clients (not just 'coaches' but your specific niche), build targeted prospect lists, and validate contact data before we send a single email. 500–1,000+ verified contacts per month, enriched with personalization data.",
   },
   {
     icon: PenTool,
@@ -58,7 +58,7 @@ const steps = [
   {
     icon: Rocket,
     title: "Campaign Management & Optimization",
-    desc: "We write the sequences, manage replies, qualify prospects, and book meetings directly to your calendar. You show up to the call. We A/B test messaging, refine targeting, and optimize send times until we hit consistent flow — then we scale.",
+    desc: "We write the sequences, manage replies, qualify prospects, and book meetings directly to your calendar. You show up to the call. We A/B test messaging, refine targeting, and optimize send times until we hit consistent flow. Then we scale.",
   },
 ];
 
@@ -90,15 +90,15 @@ const faqs = [
   },
   {
     q: "What if I'm already doing cold email?",
-    a: "We'll audit your current setup and either improve it or rebuild from scratch. Most DIY campaigns are broken in 3–5 places — deliverability, targeting, messaging, or follow-up structure.",
+    a: "We'll audit your current setup and either improve it or rebuild from scratch. Most DIY campaigns are broken in 3–5 places: deliverability, targeting, messaging, or follow-up structure.",
   },
   {
     q: "How does pricing work?",
-    a: "Every coaching business is different — your niche, ICP, complexity, and goals all factor into the scope of work. We create custom quotes based on your specific situation. Book a strategy call and we'll walk you through exactly what we'd build for you.",
+    a: "Every coaching business is different. Your niche, ICP, complexity, and goals all factor into the scope of work. We create custom quotes based on your specific situation. Book a strategy call and we'll walk you through exactly what we'd build for you.",
   },
   {
     q: "What happens on the strategy call?",
-    a: "We'll audit your current lead gen, define your ICP, show you how we'd target and message your ideal clients, and outline what the first 90 days would look like. No pressure, no pitch — just a real conversation about whether this is a fit.",
+    a: "We'll audit your current lead gen, define your ICP, show you how we'd target and message your ideal clients, and outline what the first 90 days would look like. No pressure, no pitch. Just a real conversation about whether this is a fit.",
   },
 ];
 
@@ -127,7 +127,7 @@ export default function HomePage() {
           </h1>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
-            We build and run your entire cold email engine — domains, mailboxes, leads, and
+            We build and run your entire cold email engine: domains, mailboxes, leads, and
             AI-personalized sequences. You close the calls. We fill your calendar.
             No ads. No guesswork. Just a system that works.
           </p>
@@ -207,7 +207,7 @@ export default function HomePage() {
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">
               Most coaches rely almost entirely on word-of-mouth. It feels great when
-              it&apos;s working — but you&apos;re one slow quarter away from panic.
+              it&apos;s working. But you&apos;re one slow quarter away from panic.
               Referrals are unpredictable, unscalable, and outside your control.
               Cold email, done right, is the opposite.
             </p>
@@ -235,7 +235,7 @@ export default function HomePage() {
               {
                 label: "Time spent on lead gen",
                 without: "Hours on LinkedIn, DMs, events",
-                with: "Zero — we handle everything",
+                with: "Zero. We handle everything.",
               },
               {
                 label: "Pipeline visibility",
@@ -345,7 +345,7 @@ export default function HomePage() {
             <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
               Plug in your close rate and average client value. See what adding
               8–15 consistent discovery calls per month could do to your revenue.
-              No fluff &mdash; just math.
+              No fluff. Just math.
             </p>
           </div>
 
@@ -385,7 +385,7 @@ export default function HomePage() {
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
               Built for coaches with a proven offer who want to add a predictable
-              outbound channel — without becoming salespeople.
+              outbound channel, without becoming salespeople.
             </p>
           </div>
 
@@ -395,7 +395,7 @@ export default function HomePage() {
               <h3 className="mb-6 text-lg font-semibold text-white">This is for you if&hellip;</h3>
               <ul className="space-y-4">
                 {[
-                  "You have a proven offer — you know how to close, you just need more calls",
+                  "You have a proven offer. You know how to close, you just need more calls.",
                   "You charge $3,000–$15,000 per client or program",
                   "You close 20–40% of discovery calls",
                   "You want predictable lead flow, not feast-or-famine referrals",
@@ -416,7 +416,7 @@ export default function HomePage() {
                 {[
                   "You're a brand new coach still figuring out your offer",
                   "You can't clearly define who your ideal client is",
-                  "You're looking for instant results — email takes 60–90 days",
+                  "You're looking for instant results. Cold email takes 60–90 days to ramp.",
                   "You close less than 15% of calls (fix your offer first)",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">

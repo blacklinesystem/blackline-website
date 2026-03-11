@@ -13,7 +13,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "How It Works — Blackline's AI Cold Email System for Business Coaches",
+  title: "How It Works | Blackline's AI Cold Email System for Business Coaches",
   description:
     "See how Blackline goes from zero to consistent discovery calls in 90 days. Our 5-step process: ICP workshop, infrastructure build, lead sourcing, AI copy, and campaign management. Honest timelines for business coaches.",
   alternates: { canonical: "/how-it-works" },
@@ -25,7 +25,7 @@ const steps = [
     title: "ICP Workshop & Outbound Strategy",
     timeline: "Month 1 · Week 1",
     description:
-      "This is where most agencies cut corners. We don't. We run a structured ICP workshop to reverse-engineer your best clients — who they are, what keeps them up at night, and exactly why they hired a coach. The output is a precision outbound playbook: your ideal client profile, messaging angles, sequence architecture, and targeting criteria. Not a generic template. A strategy built around your specific offer and your specific market.",
+      "This is where most agencies cut corners. We don't. We run a structured ICP workshop to reverse-engineer your best clients: who they are, what keeps them up at night, and exactly why they hired a coach. The output is a precision outbound playbook: your ideal client profile, messaging angles, sequence architecture, and targeting criteria. Not a generic template. A strategy built around your specific offer and your specific market.",
     deliverables: [
       "Structured ICP workshop (live call with our team)",
       "Ideal client profile document with firmographic and psychographic criteria",
@@ -39,7 +39,7 @@ const steps = [
     title: "Infrastructure Build",
     timeline: "Month 1 · Weeks 1–4",
     description:
-      "Your emails are worthless if they land in spam. We build a sending infrastructure from the ground up that email providers actually trust. 10–15 custom sending domains purchased and configured, 30–45 authenticated mailboxes with SPF, DKIM, and DMARC, and a 30-day warmup protocol that builds real sender reputation before a single campaign email goes out. The warmup phase is non-negotiable — it's what separates a system that works from one that gets blacklisted.",
+      "Your emails are worthless if they land in spam. We build a sending infrastructure from the ground up that email providers actually trust. 10–15 custom sending domains purchased and configured, 30–45 authenticated mailboxes with SPF, DKIM, and DMARC, and a 30-day warmup protocol that builds real sender reputation before a single campaign email goes out. The warmup phase is non-negotiable. It's what separates a system that works from one that gets blacklisted.",
     deliverables: [
       "10–15 custom sending domains purchased and fully configured",
       "30–45 mailboxes created with SPF, DKIM, DMARC authentication",
@@ -53,7 +53,7 @@ const steps = [
     title: "Targeted Lead Sourcing & Verification",
     timeline: "Month 1 · Weeks 2–3",
     description:
-      "Garbage leads produce garbage results. We source 500–1,000+ verified prospects from Apollo.io and other premium databases, filtered precisely to your ICP criteria. Every contact goes through multi-step email verification to keep bounce rates under 2%. Contacts are enriched with the personalization data points we need to make every email feel like it was written specifically for that person — not mass-blasted.",
+      "Garbage leads produce garbage results. We source 500–1,000+ verified prospects from Apollo.io and other premium databases, filtered precisely to your ICP criteria. Every contact goes through multi-step email verification to keep bounce rates under 2%. Contacts are enriched with the personalization data points we need to make every email feel like it was written specifically for that person. Not mass-blasted.",
     deliverables: [
       "500–1,000+ targeted prospects matching your exact ICP (monthly refresh)",
       "Multi-step verification with bounce rate under 2%",
@@ -67,7 +67,7 @@ const steps = [
     title: "AI-Personalized Email Sequences",
     timeline: "Month 1 · Weeks 3–4",
     description:
-      "Nobody replies to 'I hope this email finds you well.' Our copywriting process uses AI to generate hyper-personalized sequences and refines them to read like they came from a trusted peer — not a sales pitch. Every email earns the next open. Every follow-up adds value instead of pushing harder. We write a 5–7 touch framework with multiple messaging angles built in from the start for A/B testing.",
+      "Nobody replies to 'I hope this email finds you well.' Our copywriting process uses AI to generate hyper-personalized sequences and refines them to read like they came from a trusted peer. Not a sales pitch. Every email earns the next open. Every follow-up adds value instead of pushing harder. We write a 5–7 touch framework with multiple messaging angles built in from the start for A/B testing.",
     deliverables: [
       "5–7 step email sequences built around your ICP and offer",
       "AI-personalized openers using prospect-specific research",
@@ -81,7 +81,7 @@ const steps = [
     title: "Campaign Management & Optimization",
     timeline: "Month 2+",
     description:
-      "Campaigns go live with controlled volume ramps and real-time monitoring. From the first send, we track replies, positive sentiment, and meetings booked. Then we optimize — new subject lines, tighter copy, better targeting angles. Every week the system gets sharper. First meetings start booking in weeks 6–8. By month 4, most coaches are seeing 8–15 qualified calls per month. This is not a set-it-and-forget-it service. It is a continuously improving outbound machine.",
+      "Campaigns go live with controlled volume ramps and real-time monitoring. From the first send, we track replies, positive sentiment, and meetings booked. Then we optimize: new subject lines, tighter copy, better targeting angles. Every week the system gets sharper. First meetings start booking in weeks 6–8. By month 4, most coaches are seeing 8–15 qualified calls per month. This is not a set-it-and-forget-it service. It is a continuously improving outbound machine.",
     deliverables: [
       "Campaign launch with controlled sending volume ramps",
       "Reply monitoring, prospect qualification, and calendar booking",
@@ -117,7 +117,7 @@ export default function HowItWorksPage() {
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
             We&apos;re honest about timelines. Cold email isn&apos;t instant.
-            Here&apos;s the real process — what happens each month, what to expect,
+            Here&apos;s the real process: what happens each month, what to expect,
             and when the meetings start showing up.
           </p>
         </div>
@@ -224,7 +224,7 @@ export default function HowItWorksPage() {
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
               Cold email is not instant. Here&apos;s an honest look at what
-              happens each month — and what you should and shouldn&apos;t expect.
+              happens each month, and what you should and shouldn&apos;t expect.
             </p>
           </div>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -271,7 +271,7 @@ export default function HowItWorksPage() {
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
             Every system we build is custom-scoped to your coaching offer, your market, and your goals.
-            Book a strategy call and we&apos;ll map out exactly what your outbound engine would look like —
+            Book a strategy call and we&apos;ll map out exactly what your outbound engine would look like,
             built for your niche, not a one-size-fits-all template.
           </p>
           <div className="mt-8">

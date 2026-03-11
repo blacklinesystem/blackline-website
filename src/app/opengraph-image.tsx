@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 
 export const runtime = "edge";
 
-export const alt = "Blackline — AI Cold Email Systems That Book Meetings";
+export const alt = "Blackline | AI Cold Email Systems That Book Meetings";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -80,7 +80,7 @@ export default async function Image() {
           }}
         >
           {[
-            { value: "14 Days", label: "To Launch" },
+            { value: "90 Days", label: "To Full Ramp" },
             { value: "97%", label: "Inbox Rate" },
             { value: "4.1%", label: "Avg. Reply Rate" },
           ].map((stat) => (

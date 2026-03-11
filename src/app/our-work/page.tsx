@@ -23,9 +23,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Our Work — Blackline Cold Email Systems for Business Coaches",
+  title: "Our Work | Blackline Cold Email Systems for Business Coaches",
   description:
-    "See how Blackline builds AI cold email systems for business coaches, executive coaches, and consultants. These are illustrative examples of the type of systems we build — infrastructure, targeting, copy, and projected outcomes.",
+    "See how Blackline builds AI cold email systems for business coaches, executive coaches, and consultants. These are illustrative examples of the type of systems we build: infrastructure, targeting, copy, and projected outcomes.",
   alternates: { canonical: "/our-work" },
 };
 
@@ -69,7 +69,7 @@ const caseStudies = [
     company: "Executive coach targeting C-suite and VP-level leaders",
     companySize: "1 coach · $250K–$500K revenue",
     challenge:
-      "Strong reputation within a small network but no way to scale beyond it. Referrals from past clients were inconsistent and unpredictable. The coach had a premium offer ($10K–$25K engagements) but no systematic way to reach the type of executives who would pay that fee — and no time to prospect manually.",
+      "Strong reputation within a small network but no way to scale beyond it. Referrals from past clients were inconsistent and unpredictable. The coach had a premium offer ($10K–$25K engagements) but no systematic way to reach the type of executives who would pay that fee, and no time to prospect manually.",
     icp: {
       title: "CEO / COO / VP / Director",
       company: "Established companies with 50–500 employees",
@@ -86,7 +86,7 @@ const caseStudies = [
     emailExample: {
       subject: "Leading {{company}} through the next stage",
       preview:
-        "Saw you recently stepped into the [COO] role at {{company}}. The first 90 days of a leadership transition are usually where the biggest decisions get made — and where most leaders are working without a sounding board.\n\nI work with senior leaders at that inflection point. Not a course, not a workshop — one-on-one coaching focused on the real decisions in front of you.\n\nWould a quick conversation be useful?",
+        "Saw you recently stepped into the [COO] role at {{company}}. The first 90 days of a leadership transition are usually where the biggest decisions get made, and where most leaders are working without a sounding board.\n\nI work with senior leaders at that inflection point. Not a course, not a workshop. One-on-one coaching focused on the real decisions in front of you.\n\nWould a quick conversation be useful?",
     },
     results: {
       callsPerMonth: "5–8",
@@ -101,7 +101,7 @@ const caseStudies = [
     company: "Sales consultant helping B2B companies build outbound teams",
     companySize: "2-person consultancy · ~$600K revenue",
     challenge:
-      "100% inbound from a newsletter and LinkedIn presence. Revenue was growing but entirely dependent on the founder showing up online every day. One team member handled delivery and one drove acquisition — but the acquisition side had no leverage. Needed a consistent outbound channel that didn't require constant content creation.",
+      "100% inbound from a newsletter and LinkedIn presence. Revenue was growing but entirely dependent on the founder showing up online every day. One team member handled delivery and one drove acquisition, but the acquisition side had no leverage. Needed a consistent outbound channel that didn't require constant content creation.",
     icp: {
       title: "VP of Sales / Head of Revenue / Founder",
       company: "B2B companies doing $1M–$10M in revenue",
@@ -118,7 +118,7 @@ const caseStudies = [
     emailExample: {
       subject: "{{company}}'s outbound motion",
       preview:
-        "Noticed {{company}} recently brought on a couple of SDRs. Most early-stage outbound teams hit the same issues in months 1–3: inconsistent messaging, no clear ICP, and reps who are winging it on sequencing.\n\nI help B2B companies build the process, playbook, and coaching system that makes those first reps actually productive — instead of expensive experiments.\n\nWorth a 20-minute call to see if it's a fit?",
+        "Noticed {{company}} recently brought on a couple of SDRs. Most early-stage outbound teams hit the same issues in months 1–3: inconsistent messaging, no clear ICP, and reps who are winging it on sequencing.\n\nI help B2B companies build the process, playbook, and coaching system that makes those first reps actually productive, not expensive experiments.\n\nWorth a 20-minute call to see if it's a fit?",
     },
     results: {
       callsPerMonth: "8–14",
@@ -133,7 +133,7 @@ const caseStudies = [
     company: "Performance health coach targeting senior executives and founders",
     companySize: "1 coach · $150K–$250K revenue",
     challenge:
-      "Entirely dependent on Instagram and referrals from past clients. Engagement on social was strong but inconsistent — and it didn't reliably convert into paid engagements. The coach had a premium 6-month program but no repeatable way to connect with busy executives who weren't actively browsing Instagram for coaching.",
+      "Entirely dependent on Instagram and referrals from past clients. Engagement on social was strong but inconsistent, and it didn't reliably convert into paid engagements. The coach had a premium 6-month program but no repeatable way to connect with busy executives who weren't actively browsing Instagram for coaching.",
     icp: {
       title: "CEO / Founder / VP / Partner",
       company: "Companies of 10–200 employees or high-growth individuals",
@@ -150,7 +150,7 @@ const caseStudies = [
     emailExample: {
       subject: "{{first_name}}, running on empty?",
       preview:
-        "You didn't build {{company}} by having average energy. But at a certain point, the output starts costing more than it should.\n\nI work with founders and senior leaders on exactly that — not generic wellness advice, but a personalized performance health protocol built around your schedule, your stress, and your goals.\n\nWorth 20 minutes to talk about what that could look like?",
+        "You didn't build {{company}} by having average energy. But at a certain point, the output starts costing more than it should.\n\nI work with founders and senior leaders on exactly that. Not generic wellness advice, but a personalized performance health protocol built around your schedule, your stress, and your goals.\n\nWorth 20 minutes to talk about what that could look like?",
     },
     results: {
       callsPerMonth: "6–10",
@@ -165,7 +165,7 @@ const caseStudies = [
     company: "Digital marketing consultant helping B2B service businesses scale demand gen",
     companySize: "2-person team · ~$400K revenue",
     challenge:
-      "Built the business on a strong personal brand and referral network — but growth had plateaued. All clients came from word-of-mouth or past connections. The consultant needed a way to reach companies with active marketing budget and a genuine need for demand gen, without relying on LinkedIn content or waiting for introductions.",
+      "Built the business on a strong personal brand and referral network, but growth had plateaued. All clients came from word-of-mouth or past connections. The consultant needed a way to reach companies with active marketing budget and a genuine need for demand gen, without relying on LinkedIn content or waiting for introductions.",
     icp: {
       title: "CMO / VP of Marketing / Head of Growth / Founder",
       company: "B2B companies doing $3M–$30M in revenue",
@@ -182,7 +182,7 @@ const caseStudies = [
     emailExample: {
       subject: "{{company}}'s demand gen roadmap",
       preview:
-        "Noticed {{company}} recently raised a Series A. Most post-raise companies hit the same inflection point: marketing headcount growing but no clear demand gen engine in place.\n\nI work with B2B companies at exactly that stage to build repeatable pipeline — not just campaigns, but the underlying systems that compound over time.\n\nOpen to a quick call to see if it's a fit?",
+        "Noticed {{company}} recently raised a Series A. Most post-raise companies hit the same inflection point: marketing headcount growing but no clear demand gen engine in place.\n\nI work with B2B companies at exactly that stage to build repeatable pipeline. Not just campaigns, but the underlying systems that compound over time.\n\nOpen to a quick call to see if it's a fit?",
     },
     results: {
       callsPerMonth: "8–12",
@@ -214,7 +214,7 @@ const caseStudies = [
     emailExample: {
       subject: "Leadership gaps at {{company}}?",
       preview:
-        "Most companies invest heavily in hiring good managers and almost nothing in developing them after they're in the seat.\n\nWe run structured leadership programs for mid-level managers — not generic workshops, but cohort-based development tied to the actual business challenges your managers are navigating right now.\n\nWould a conversation about what that looks like for {{company}} be worth 20 minutes?",
+        "Most companies invest heavily in hiring good managers and almost nothing in developing them after they're in the seat.\n\nWe run structured leadership programs for mid-level managers. Not generic workshops, but cohort-based development tied to the actual business challenges your managers are navigating right now.\n\nWould a conversation about what that looks like for {{company}} be worth 20 minutes?",
     },
     results: {
       callsPerMonth: "5–8",
@@ -248,7 +248,7 @@ export default function OurWorkPage() {
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
             We&apos;re a new agency actively building our client portfolio. Below
             are examples of how we approach outbound for specific coaching and
-            consulting niches — the ICP targeting, infrastructure, and copy we
+            consulting niches: the ICP targeting, infrastructure, and copy we
             build. These are illustrative examples, not documented client
             engagements.
           </p>
@@ -402,7 +402,7 @@ export default function OurWorkPage() {
         {/* Disclaimer */}
         <div className="mt-10 rounded-xl border border-white/[0.06] bg-white/[0.02] px-6 py-5 text-center">
           <p className="text-sm text-muted-foreground/80">
-            All examples on this page are illustrative — they represent how Blackline approaches outbound for specific coaching and consulting niches.
+            All examples on this page are illustrative. They represent how Blackline approaches outbound for specific coaching and consulting niches.
             They are not based on actual client results or engagements. We&apos;re actively building our client portfolio and would love to make your
             niche the next example here.
           </p>

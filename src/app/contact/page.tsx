@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Mail, Clock, Shield, Check } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Book a Strategy Call — Blackline Cold Email Systems for Business Coaches",
+  title: "Book a Strategy Call | Blackline Cold Email Systems for Business Coaches",
   description:
     "Book a free strategy call with Blackline. We'll map your ICP, outline your outbound infrastructure, and show you exactly what 8–15 qualified discovery calls per month looks like for your coaching business. No obligation.",
   alternates: { canonical: "/contact" },
@@ -30,7 +30,7 @@ export default function ContactPage() {
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
             Grab an hour with us. We&apos;ll dig into your business, your buyers,
-            and your goals — then show you exactly what a custom outbound system
+            and your goals. Then we show you exactly what a custom outbound system
             looks like for your coaching niche. No pitch deck. No pressure.
           </p>
 
@@ -56,12 +56,12 @@ export default function ContactPage() {
           </h2>
           <ul className="space-y-3">
             {[
-              "Map your ideal client profile — who they are, where they are, and what makes them a buyer",
+              "Map your ideal client profile: who they are, where they are, and what makes them a buyer",
               "Design your outbound infrastructure: domains, mailboxes, warmup timeline, and send volume",
               "Outline your sequencing strategy and the messaging angles that work for your niche",
-              "Give you honest projections for what to expect and when — including the 90-day ramp",
+              "Give you honest projections for what to expect and when, including the full 90-day ramp",
               "Walk through what a custom system built for your specific offer looks like end-to-end",
-              "Answer any questions — zero sales pressure, zero commitment required",
+              "Answer any questions. Zero sales pressure, zero commitment required.",
             ].map((item, i) => (
               <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
                 <Check size={16} className="mt-0.5 shrink-0 text-[#f34749]" />

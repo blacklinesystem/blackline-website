@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     template: "%s | Blackline",
   },
   description:
-    "Done-for-you AI cold email infrastructure. Launched in 14 days. We build the domains, mailboxes, leads, and AI-written emails so you just show up to meetings.",
+    "Done-for-you AI cold email infrastructure for business coaches. We build the domains, mailboxes, leads, and AI-written emails so you just show up to meetings.",
   keywords: [
     "Blackline",
     "Blackline cold email",
@@ -59,13 +59,13 @@ export const metadata: Metadata = {
     siteName: "Blackline",
     title: "Blackline | AI Cold Email Systems That Book Meetings",
     description:
-      "Done-for-you AI cold email infrastructure. Launched in 14 days. We build the domains, mailboxes, leads, and AI-written emails so you just show up to meetings.",
+      "Done-for-you AI cold email infrastructure for business coaches. We build the domains, mailboxes, leads, and AI-written emails so you just show up to meetings.",
   },
   twitter: {
     card: "summary_large_image",
     title: "Blackline | AI Cold Email Systems That Book Meetings",
     description:
-      "Done-for-you AI cold email infrastructure. Launched in 14 days. Domains, mailboxes, leads, AI copy — you just show up to meetings.",
+      "Done-for-you AI cold email infrastructure for business coaches. Domains, mailboxes, leads, AI copy. You just show up to meetings.",
   },
   alternates: {
     canonical: siteUrl,
@@ -95,7 +95,7 @@ export default function RootLayout({
               "@type": "ProfessionalService",
               name: "Blackline",
               description:
-                "Done-for-you AI cold email infrastructure. We build complete outbound systems — domains, mailboxes, leads, AI-written emails — launched in 14 days.",
+                "Done-for-you AI cold email infrastructure for business coaches. We build complete outbound systems: domains, mailboxes, leads, and AI-written emails.",
               url: siteUrl,
               logo: `${siteUrl}/logo.svg`,
               email: "hello@blacklinesystem.com",
@@ -118,7 +118,7 @@ export default function RootLayout({
               offers: {
                 "@type": "Offer",
                 description:
-                  "Custom AI cold email system built and launched in 14 days",
+                  "Custom AI cold email system built specifically for your coaching offer and ideal client",
                 availability: "https://schema.org/InStock",
               },
             }),
@@ -136,7 +136,7 @@ export default function RootLayout({
                   name: "What is Blackline?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Blackline is a done-for-you AI cold email agency. We build complete outbound systems — domains, mailboxes, verified leads, and AI-written email campaigns — and launch them in 14 days so you can focus on closing deals.",
+                    text: "Blackline is a done-for-you AI cold email agency for business coaches. We build complete outbound systems: domains, mailboxes, verified leads, and AI-written email campaigns, so you can focus on closing deals.",
                   },
                 },
                 {
@@ -144,7 +144,7 @@ export default function RootLayout({
                   name: "How long does it take Blackline to set up a cold email system?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Blackline launches your complete cold email system in 14 days. This includes domain setup, mailbox authentication, lead sourcing, AI copywriting, and campaign launch with real-time monitoring.",
+                    text: "Blackline builds and launches your complete cold email system over a 90-day engagement. This includes domain setup, mailbox authentication, warmup, lead sourcing, AI copywriting, and campaign launch with real-time monitoring.",
                   },
                 },
                 {
@@ -160,7 +160,7 @@ export default function RootLayout({
                   name: "How is Blackline different from other cold email agencies?",
                   acceptedAnswer: {
                     "@type": "Answer",
-                    text: "Blackline builds the entire infrastructure from scratch — we don't use shared domains or recycled lead lists. Every system is custom-built for your business, your ICP, and your market. We use AI to write personalized copy and continuously optimize campaigns for maximum reply rates.",
+                    text: "Blackline builds the entire infrastructure from scratch. We don't use shared domains or recycled lead lists. Every system is custom-built for your business, your ICP, and your market. We use AI to write personalized copy and continuously optimize campaigns for maximum reply rates.",
                   },
                 },
                 {
