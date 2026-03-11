@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Badge } from "@/components/ui/badge";
-import { Mail, Clock, Shield, Zap } from "lucide-react";
+import { Mail, Clock, Shield, Check } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Book a Strategy Call — Blackline Cold Email Systems",
+  title: "Book a Strategy Call — Blackline Cold Email Systems for Business Coaches",
   description:
-    "Book a free 60-minute strategy session with Blackline. We'll map out your custom AI cold email system — domains, mailboxes, leads, copy. No obligation, no pitch deck.",
+    "Book a free strategy call with Blackline. We'll map your ICP, outline your outbound infrastructure, and show you exactly what 8–15 qualified discovery calls per month looks like for your coaching business. No obligation.",
   alternates: { canonical: "/contact" },
 };
 
@@ -22,17 +22,16 @@ export default function ContactPage() {
             variant="outline"
             className="mb-4 border-[#f34749]/30 text-[#f34749]"
           >
-            <Zap size={12} className="mr-1" /> Let&apos;s Build Something
+            Book a Strategy Call
           </Badge>
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
-            Your Pipeline Won&apos;t{" "}
-            <span className="gradient-text">Build Itself</span>
+            Ready to{" "}
+            <span className="gradient-text">Fill Your Calendar?</span>
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
-            Grab an hour on our calendar. We&apos;ll dig into your business, your buyers,
-            and your goals, then map out exactly what a custom outbound system
-            looks like for you. No pitch deck. No pressure. Just a real conversation
-            about how to fill your pipeline.
+            Grab an hour with us. We&apos;ll dig into your business, your buyers,
+            and your goals — then show you exactly what a custom outbound system
+            looks like for your coaching niche. No pitch deck. No pressure.
           </p>
 
           <div className="mt-6 flex flex-wrap items-center justify-center gap-6 text-sm text-muted-foreground">
@@ -49,10 +48,33 @@ export default function ContactPage() {
         </div>
       </section>
 
+      {/* What We Cover */}
+      <section className="mx-auto max-w-4xl px-4 pb-10 sm:px-6">
+        <div className="rounded-2xl border border-white/[0.06] bg-white/[0.02] px-6 py-8 sm:px-10">
+          <h2 className="mb-5 text-lg font-semibold text-white">
+            On the call, we&apos;ll:
+          </h2>
+          <ul className="space-y-3">
+            {[
+              "Map your ideal client profile — who they are, where they are, and what makes them a buyer",
+              "Design your outbound infrastructure: domains, mailboxes, warmup timeline, and send volume",
+              "Outline your sequencing strategy and the messaging angles that work for your niche",
+              "Give you honest projections for what to expect and when — including the 90-day ramp",
+              "Walk through what a custom system built for your specific offer looks like end-to-end",
+              "Answer any questions — zero sales pressure, zero commitment required",
+            ].map((item, i) => (
+              <li key={i} className="flex items-start gap-3 text-sm text-muted-foreground">
+                <Check size={16} className="mt-0.5 shrink-0 text-[#f34749]" />
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
       {/* Cal.com Embed */}
       <section className="mx-auto max-w-4xl px-4 pb-20 sm:px-6 sm:pb-28">
         <div className="overflow-hidden rounded-2xl border border-white/[0.06] bg-white/[0.02]">
-          {/* Replace "your-cal-link" with your actual Cal.com username/event */}
           <iframe
             src="https://cal.com/nicholastochev/60min?embed=true&theme=dark"
             className="h-[700px] w-full border-0"

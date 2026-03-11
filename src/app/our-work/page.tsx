@@ -17,12 +17,15 @@ import {
   Send,
   GraduationCap,
   LineChart,
+  HeartPulse,
+  Megaphone,
+  Award,
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Our Work — Blackline Cold Email Systems for Coaches & Consultants",
+  title: "Our Work — Blackline Cold Email Systems for Business Coaches",
   description:
-    "See how Blackline builds AI cold email systems for business coaches, executive coaches, and consultants. Real strategies, real infrastructure, and realistic results.",
+    "See how Blackline builds AI cold email systems for business coaches, executive coaches, and consultants. These are illustrative examples of the type of systems we build — infrastructure, targeting, copy, and projected outcomes.",
   alternates: { canonical: "/our-work" },
 };
 
@@ -43,10 +46,10 @@ const caseStudies = [
       signals: "Recently hired first employees, posting about growing pains on LinkedIn, actively looking for mentorship or a peer advisory group",
     },
     infrastructure: {
-      domains: 3,
-      mailboxes: 9,
-      warmupDays: 14,
-      dailySendVolume: "60–90 emails/day",
+      domains: "10–15",
+      mailboxes: "30–45",
+      warmupDays: 30,
+      dailySendVolume: "90–135 emails/day",
     },
     emailExample: {
       subject: "Scaling past $500K without burning out?",
@@ -57,12 +60,12 @@ const caseStudies = [
       callsPerMonth: "6–10",
       replyRate: "3.5–5.0%",
       estimatedPipelineValue: "$30K–$60K/quarter",
-      timeToFirstCall: "5–8 days after launch",
+      timeToFirstCall: "Weeks 6–8",
     },
   },
   {
     icon: GraduationCap,
-    industry: "Executive & Leadership Coaching",
+    industry: "Executive Coaching",
     company: "Executive coach targeting C-suite and VP-level leaders",
     companySize: "1 coach · $250K–$500K revenue",
     challenge:
@@ -75,10 +78,10 @@ const caseStudies = [
       signals: "Recent promotion, company in growth or transition phase, actively sharing leadership content on LinkedIn, new to a senior role within the past 12 months",
     },
     infrastructure: {
-      domains: 3,
-      mailboxes: 9,
-      warmupDays: 14,
-      dailySendVolume: "50–75 emails/day",
+      domains: "10–15",
+      mailboxes: "30–45",
+      warmupDays: 30,
+      dailySendVolume: "75–110 emails/day",
     },
     emailExample: {
       subject: "Leading {{company}} through the next stage",
@@ -89,12 +92,12 @@ const caseStudies = [
       callsPerMonth: "5–8",
       replyRate: "3.0–4.5%",
       estimatedPipelineValue: "$50K–$150K/quarter",
-      timeToFirstCall: "7–12 days after launch",
+      timeToFirstCall: "Weeks 6–8",
     },
   },
   {
     icon: LineChart,
-    industry: "Sales & Revenue Consulting",
+    industry: "Sales Consulting",
     company: "Sales consultant helping B2B companies build outbound teams",
     companySize: "2-person consultancy · ~$600K revenue",
     challenge:
@@ -107,10 +110,10 @@ const caseStudies = [
       signals: "Recently hired first SDR, posted about pipeline problems, mentioned missing quota on LinkedIn, or recently raised a seed/Series A round",
     },
     infrastructure: {
-      domains: 4,
-      mailboxes: 12,
-      warmupDays: 14,
-      dailySendVolume: "80–120 emails/day",
+      domains: "10–15",
+      mailboxes: "30–45",
+      warmupDays: 30,
+      dailySendVolume: "120–175 emails/day",
     },
     emailExample: {
       subject: "{{company}}'s outbound motion",
@@ -121,7 +124,103 @@ const caseStudies = [
       callsPerMonth: "8–14",
       replyRate: "3.2–4.8%",
       estimatedPipelineValue: "$60K–$120K/quarter",
-      timeToFirstCall: "5–10 days after launch",
+      timeToFirstCall: "Weeks 6–8",
+    },
+  },
+  {
+    icon: HeartPulse,
+    industry: "Health & Wellness Coaching",
+    company: "Performance health coach targeting senior executives and founders",
+    companySize: "1 coach · $150K–$250K revenue",
+    challenge:
+      "Entirely dependent on Instagram and referrals from past clients. Engagement on social was strong but inconsistent — and it didn't reliably convert into paid engagements. The coach had a premium 6-month program but no repeatable way to connect with busy executives who weren't actively browsing Instagram for coaching.",
+    icp: {
+      title: "CEO / Founder / VP / Partner",
+      company: "Companies of 10–200 employees or high-growth individuals",
+      industry: "Technology, Finance, Legal, Consulting",
+      location: "United States",
+      signals: "Recently posted about burnout, work-life balance, or peak performance. Runs a high-stakes company. Active on LinkedIn about productivity and leadership.",
+    },
+    infrastructure: {
+      domains: "10–15",
+      mailboxes: "30–45",
+      warmupDays: 30,
+      dailySendVolume: "80–120 emails/day",
+    },
+    emailExample: {
+      subject: "{{first_name}}, running on empty?",
+      preview:
+        "You didn't build {{company}} by having average energy. But at a certain point, the output starts costing more than it should.\n\nI work with founders and senior leaders on exactly that — not generic wellness advice, but a personalized performance health protocol built around your schedule, your stress, and your goals.\n\nWorth 20 minutes to talk about what that could look like?",
+    },
+    results: {
+      callsPerMonth: "6–10",
+      replyRate: "2.8–4.2%",
+      estimatedPipelineValue: "$40K–$80K/quarter",
+      timeToFirstCall: "Weeks 6–8",
+    },
+  },
+  {
+    icon: Megaphone,
+    industry: "Marketing Consulting",
+    company: "Digital marketing consultant helping B2B service businesses scale demand gen",
+    companySize: "2-person team · ~$400K revenue",
+    challenge:
+      "Built the business on a strong personal brand and referral network — but growth had plateaued. All clients came from word-of-mouth or past connections. The consultant needed a way to reach companies with active marketing budget and a genuine need for demand gen, without relying on LinkedIn content or waiting for introductions.",
+    icp: {
+      title: "CMO / VP of Marketing / Head of Growth / Founder",
+      company: "B2B companies doing $3M–$30M in revenue",
+      industry: "Professional Services, SaaS, Technology",
+      location: "US & Canada",
+      signals: "Recent Series A/B fundraise, actively hiring marketing roles, recently posted about pipeline challenges, or shifting from inbound-only to outbound growth",
+    },
+    infrastructure: {
+      domains: "10–15",
+      mailboxes: "30–45",
+      warmupDays: 30,
+      dailySendVolume: "100–150 emails/day",
+    },
+    emailExample: {
+      subject: "{{company}}'s demand gen roadmap",
+      preview:
+        "Noticed {{company}} recently raised a Series A. Most post-raise companies hit the same inflection point: marketing headcount growing but no clear demand gen engine in place.\n\nI work with B2B companies at exactly that stage to build repeatable pipeline — not just campaigns, but the underlying systems that compound over time.\n\nOpen to a quick call to see if it's a fit?",
+    },
+    results: {
+      callsPerMonth: "8–12",
+      replyRate: "3.2–4.8%",
+      estimatedPipelineValue: "$60K–$120K/quarter",
+      timeToFirstCall: "Weeks 6–8",
+    },
+  },
+  {
+    icon: Award,
+    industry: "Leadership Development",
+    company: "Leadership development firm delivering programs for mid-level managers",
+    companySize: "2 facilitators · ~$500K revenue",
+    challenge:
+      "Revenue was tied entirely to in-person workshops and internal referrals from existing HR contacts. When a few anchor contracts ended in the same quarter, pipeline dried up immediately. The firm had no active channel to reach new L&D buyers at companies actively investing in manager development.",
+    icp: {
+      title: "Head of L&D / VP of People / HR Director / Chief People Officer",
+      company: "Companies with 200–2,000 employees",
+      industry: "Financial Services, Technology, Healthcare, Manufacturing",
+      location: "United States",
+      signals: "Actively posting about people development, recently hired an L&D manager, company went through a merger or rapid growth phase, open roles in management or HR",
+    },
+    infrastructure: {
+      domains: "10–15",
+      mailboxes: "30–45",
+      warmupDays: 30,
+      dailySendVolume: "80–120 emails/day",
+    },
+    emailExample: {
+      subject: "Leadership gaps at {{company}}?",
+      preview:
+        "Most companies invest heavily in hiring good managers and almost nothing in developing them after they're in the seat.\n\nWe run structured leadership programs for mid-level managers — not generic workshops, but cohort-based development tied to the actual business challenges your managers are navigating right now.\n\nWould a conversation about what that looks like for {{company}} be worth 20 minutes?",
+    },
+    results: {
+      callsPerMonth: "5–8",
+      replyRate: "2.5–3.8%",
+      estimatedPipelineValue: "$40K–$100K/quarter",
+      timeToFirstCall: "Weeks 6–8",
     },
   },
 ];
@@ -147,9 +246,11 @@ export default function OurWorkPage() {
             <span className="gradient-text">In Action</span>
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
-            Below are examples of how we approach outbound for specific coaching
-            and consulting niches. Real strategies, real infrastructure,
-            and realistic outcomes based on what the system is built to deliver.
+            We&apos;re a new agency actively building our client portfolio. Below
+            are examples of how we approach outbound for specific coaching and
+            consulting niches — the ICP targeting, infrastructure, and copy we
+            build. These are illustrative examples, not documented client
+            engagements.
           </p>
         </div>
       </section>
@@ -238,7 +339,7 @@ export default function OurWorkPage() {
                         </div>
                         <div className="rounded-xl border border-white/[0.06] bg-white/[0.03] p-4 text-center">
                           <p className="text-2xl font-bold text-white">{study.infrastructure.warmupDays}</p>
-                          <p className="text-xs text-muted-foreground">Days to Launch</p>
+                          <p className="text-xs text-muted-foreground">Day Warmup Protocol</p>
                         </div>
                         <div className="rounded-xl border border-white/[0.06] bg-white/[0.03] p-4 text-center">
                           <p className="text-lg font-bold text-white">{study.infrastructure.dailySendVolume}</p>
@@ -265,7 +366,7 @@ export default function OurWorkPage() {
                     </div>
                   </div>
 
-                  {/* Estimated Results */}
+                  {/* Projected Results */}
                   <div className="mt-8">
                     <h3 className="mb-3 flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-[#f34749]">
                       <TrendingUp size={14} /> Projected Results
@@ -289,13 +390,22 @@ export default function OurWorkPage() {
                       </div>
                     </div>
                     <p className="mt-3 text-xs text-muted-foreground/70">
-                      * Projections based on industry benchmarks and typical cold email performance. Actual results vary based on offer, market, and sales process.
+                      * Projections are illustrative benchmarks based on industry cold email averages. Actual results vary by offer quality, ICP fit, and sales process.
                     </p>
                   </div>
                 </div>
               </CardContent>
             </Card>
           ))}
+        </div>
+
+        {/* Disclaimer */}
+        <div className="mt-10 rounded-xl border border-white/[0.06] bg-white/[0.02] px-6 py-5 text-center">
+          <p className="text-sm text-muted-foreground/80">
+            All examples on this page are illustrative — they represent how Blackline approaches outbound for specific coaching and consulting niches.
+            They are not based on actual client results or engagements. We&apos;re actively building our client portfolio and would love to make your
+            niche the next example here.
+          </p>
         </div>
 
         {/* What Every Engagement Includes */}
@@ -312,21 +422,21 @@ export default function OurWorkPage() {
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
               No matter your niche, every Blackline system is built with the
-              same battle-tested components and tools.
+              same battle-tested infrastructure and process.
             </p>
           </div>
 
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {[
               "ICP workshop and buyer persona mapping (live call)",
-              "Dedicated sending domains with full DNS authentication",
-              "Warmed mailboxes ready for primary inbox delivery",
-              "500+ verified, enriched leads matched to your ICP",
-              "AI-personalized email sequences (Claude API)",
-              "Make.com automation for real-time reply handling",
+              "10–15 dedicated sending domains with SPF, DKIM, and DMARC authentication",
+              "30–45 warmed mailboxes with 30-day warmup protocol for primary inbox placement",
+              "500–1,000+ verified, enriched leads matched to your exact ICP (monthly refresh)",
+              "AI-personalized email sequences built around your coaching offer",
+              "Reply monitoring, prospect qualification, and calendar booking",
               "A/B testing on subject lines, copy, and send timing",
-              "Deliverability monitoring with weekly performance reports",
-              "Ongoing list refresh and campaign optimization",
+              "Real-time deliverability monitoring with weekly performance reports",
+              "Bi-weekly strategy calls to review results and adjust targeting",
             ].map((item, i) => (
               <div
                 key={i}
@@ -345,8 +455,8 @@ export default function OurWorkPage() {
             Ready to See What This Looks Like for Your Business?
           </h2>
           <p className="mx-auto mt-3 max-w-lg text-muted-foreground">
-            Every system is custom-built around your offer and your ideal client.
-            Book a strategy session and we&apos;ll map out exactly what your outbound engine looks like.
+            Every system is custom-built around your coaching offer and your ideal client.
+            Book a strategy call and we&apos;ll map out exactly what your outbound engine looks like.
           </p>
           <div className="mt-6">
             <Button
@@ -355,7 +465,7 @@ export default function OurWorkPage() {
               className="bg-[#f34749] px-8 text-white hover:bg-[#d93d3f]"
             >
               <Link href="/contact">
-                Book Your Strategy Session <ArrowRight size={16} className="ml-2" />
+                Book a Strategy Call <ArrowRight size={16} className="ml-2" />
               </Link>
             </Button>
           </div>

@@ -13,9 +13,9 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "How It Works — Blackline's AI Cold Email System for Coaches & Consultants",
+  title: "How It Works — Blackline's AI Cold Email System for Business Coaches",
   description:
-    "See how Blackline goes from zero to booked discovery calls in 14-21 days. Our 5-step process: ICP workshop, infrastructure, lead sourcing, AI copy, and launch. Done-for-you cold email for coaches and consultants.",
+    "See how Blackline goes from zero to consistent discovery calls in 90 days. Our 5-step process: ICP workshop, infrastructure build, lead sourcing, AI copy, and campaign management. Honest timelines for business coaches.",
   alternates: { canonical: "/how-it-works" },
 };
 
@@ -23,75 +23,77 @@ const steps = [
   {
     icon: Search,
     title: "ICP Workshop & Outbound Strategy",
-    timeline: "Week 1 · Days 1–5",
+    timeline: "Month 1 · Week 1",
     description:
-      "This is where most agencies cut corners. We don't. We run a structured ICP workshop to reverse-engineer your best clients — who they are, what keeps them up at night, and exactly why they hired a coach or consultant. The output is a precision outbound playbook: your ideal client profile, messaging angles, sequence architecture, and targeting criteria. Not a generic template. A strategy built around your specific offer and market.",
+      "This is where most agencies cut corners. We don't. We run a structured ICP workshop to reverse-engineer your best clients — who they are, what keeps them up at night, and exactly why they hired a coach. The output is a precision outbound playbook: your ideal client profile, messaging angles, sequence architecture, and targeting criteria. Not a generic template. A strategy built around your specific offer and your specific market.",
     deliverables: [
       "Structured ICP workshop (live call with our team)",
       "Ideal client profile document with firmographic and psychographic criteria",
-      "Messaging framework built around your coaching or consulting offer",
+      "Messaging framework built around your coaching offer",
       "Multi-angle outbound strategy with sequence architecture",
       "Target prospect criteria that filters for buyers, not browsers",
     ],
   },
   {
     icon: Server,
-    title: "Technical Infrastructure Setup",
-    timeline: "Week 1–2 · Days 3–10",
+    title: "Infrastructure Build",
+    timeline: "Month 1 · Weeks 1–4",
     description:
-      "Your emails are worthless if they land in spam. We build a sending infrastructure from the ground up that email providers actually trust. Custom sending domains purchased and configured, authenticated mailboxes with SPF, DKIM, and DMARC, and warmup sequences that build real sender reputation before a single campaign email goes out. This is the technical foundation that separates a system that works from one that gets you blacklisted.",
+      "Your emails are worthless if they land in spam. We build a sending infrastructure from the ground up that email providers actually trust. 10–15 custom sending domains purchased and configured, 30–45 authenticated mailboxes with SPF, DKIM, and DMARC, and a 30-day warmup protocol that builds real sender reputation before a single campaign email goes out. The warmup phase is non-negotiable — it's what separates a system that works from one that gets blacklisted.",
     deliverables: [
-      "Custom sending domains purchased and fully configured",
-      "Mailboxes created with SPF, DKIM, DMARC authentication",
-      "Automated warmup sequences across all accounts",
+      "10–15 custom sending domains purchased and fully configured",
+      "30–45 mailboxes created with SPF, DKIM, DMARC authentication",
+      "30-day domain warmup protocol across all accounts",
+      "Enterprise cold email platform (Instantly or Smartlead) setup and configured",
       "Deliverability monitoring and inbox placement verification",
-      "Sending platform (Instantly/Smartlead) setup and tested",
-      "Make.com automation connected for real-time reply handling",
     ],
   },
   {
     icon: Users,
     title: "Targeted Lead Sourcing & Verification",
-    timeline: "Week 2 · Days 7–14",
+    timeline: "Month 1 · Weeks 2–3",
     description:
-      "Garbage leads produce garbage results. We source 500+ verified prospects from Apollo.io and other premium databases, filtered precisely to your ICP criteria. Every contact goes through multi-step email verification via Hunter.io and NeverBounce to keep bounce rates under 2%. Contacts are enriched with the personalization data points we need to make every email feel like it was written specifically for that person.",
+      "Garbage leads produce garbage results. We source 500–1,000+ verified prospects from Apollo.io and other premium databases, filtered precisely to your ICP criteria. Every contact goes through multi-step email verification to keep bounce rates under 2%. Contacts are enriched with the personalization data points we need to make every email feel like it was written specifically for that person — not mass-blasted.",
     deliverables: [
-      "500+ targeted prospects matching your exact ICP",
-      "Multi-step verification via Hunter.io and NeverBounce (bounce rate under 2%)",
+      "500–1,000+ targeted prospects matching your exact ICP (monthly refresh)",
+      "Multi-step verification with bounce rate under 2%",
       "Contact enrichment with company and role-specific data points",
       "Segmented lists for A/B testing and sequence personalization",
-      "Ongoing list refresh as campaigns run",
+      "Ongoing list building as campaigns scale",
     ],
   },
   {
     icon: PenTool,
-    title: "AI-Powered Email Sequences",
-    timeline: "Week 2 · Days 10–14",
+    title: "AI-Personalized Email Sequences",
+    timeline: "Month 1 · Weeks 3–4",
     description:
-      "Nobody replies to \"I hope this email finds you well.\" Our copywriting process uses Claude AI to generate hyper-personalized sequences and refines them to read like they came from a trusted peer — not a sales pitch. Every email earns the next open. Every follow-up adds value instead of pushing harder. The goal isn't volume — it's replies from people who are actually interested in a conversation.",
+      "Nobody replies to 'I hope this email finds you well.' Our copywriting process uses AI to generate hyper-personalized sequences and refines them to read like they came from a trusted peer — not a sales pitch. Every email earns the next open. Every follow-up adds value instead of pushing harder. We write a 5–7 touch framework with multiple messaging angles built in from the start for A/B testing.",
     deliverables: [
-      "3–5 step email sequences built around your ICP and offer",
-      "Subject lines optimized for open rate, not clickbait",
-      "Multiple messaging angles for A/B testing",
-      "Follow-up sequences that handle common objections",
-      "LinkedIn touchpoint integration for multi-channel outreach",
+      "5–7 step email sequences built around your ICP and offer",
+      "AI-personalized openers using prospect-specific research",
+      "Subject lines A/B tested for open rate, not clickbait",
+      "Multiple messaging angles for testing across segments",
+      "Follow-up sequences that handle common objections naturally",
     ],
   },
   {
     icon: Rocket,
-    title: "Launch, Monitor & Optimize",
-    timeline: "Week 3+ · Day 14 onward",
+    title: "Campaign Management & Optimization",
+    timeline: "Month 2+",
     description:
-      "Campaigns go live with controlled volume ramps and real-time monitoring. From the first send, we track opens, replies, positive sentiment, and meetings booked. Then we optimize — new subject lines, tighter copy, better targeting angles. Every week the system gets sharper. Discovery calls typically start arriving in weeks 4–8. This is not a set-it-and-forget-it service. It is a continuously improving outbound machine.",
+      "Campaigns go live with controlled volume ramps and real-time monitoring. From the first send, we track replies, positive sentiment, and meetings booked. Then we optimize — new subject lines, tighter copy, better targeting angles. Every week the system gets sharper. First meetings start booking in weeks 6–8. By month 4, most coaches are seeing 8–15 qualified calls per month. This is not a set-it-and-forget-it service. It is a continuously improving outbound machine.",
     deliverables: [
-      "Campaign launch with intelligent sending volume ramps",
-      "Real-time deliverability and reputation monitoring",
-      "Continuous A/B testing on subject lines, copy, and timing",
-      "Weekly performance reports with actionable optimization notes",
-      "Ongoing lead sourcing to keep pipeline full as campaigns scale",
+      "Campaign launch with controlled sending volume ramps",
+      "Reply monitoring, prospect qualification, and calendar booking",
+      "Real-time deliverability and sender reputation monitoring",
+      "Continuous A/B testing on subject lines, copy, and send timing",
+      "Weekly performance reports with optimization recommendations",
+      "Bi-weekly strategy calls to review results and adjust targeting",
     ],
   },
 ];
+
+const monthLabels = ["Mo 1", "Mo 1", "Mo 1", "Mo 1", "Mo 2+"];
 
 export default function HowItWorksPage() {
   return (
@@ -106,16 +108,17 @@ export default function HowItWorksPage() {
             variant="outline"
             className="mb-4 border-[#f34749]/30 text-[#f34749]"
           >
-            The Playbook
+            The Process
           </Badge>
           <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
-            From Zero to Booked Calls in{" "}
-            <span className="gradient-text">14–21 Days</span>
+            The{" "}
+            <span className="gradient-text">90-Day System</span>{" "}
+            That Fills Your Calendar
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
-            A custom-built outbound system designed around your coaching or consulting offer,
-            your ideal client, and your market. Not a template. Not a plug-and-play tool.
-            A done-for-you engine that books qualified discovery calls on autopilot.
+            We&apos;re honest about timelines. Cold email isn&apos;t instant.
+            Here&apos;s the real process — what happens each month, what to expect,
+            and when the meetings start showing up.
           </p>
         </div>
       </section>
@@ -132,7 +135,7 @@ export default function HowItWorksPage() {
                 {i + 1}
               </div>
               <p className="mt-2 hidden text-xs text-muted-foreground sm:block">
-                Wk {i + 1}
+                {monthLabels[i]}
               </p>
             </div>
           ))}
@@ -206,7 +209,7 @@ export default function HowItWorksPage() {
         </div>
       </section>
 
-      {/* What Happens After Launch */}
+      {/* What to Expect Month by Month */}
       <section className="border-t border-white/[0.06] bg-white/[0.02] py-16 sm:py-20">
         <div className="mx-auto max-w-4xl px-4 sm:px-6">
           <div className="text-center mb-10">
@@ -220,26 +223,31 @@ export default function HowItWorksPage() {
               What to Expect and When
             </h2>
             <p className="mx-auto mt-3 max-w-xl text-muted-foreground">
-              Cold email is not instant. Here&apos;s an honest look at what happens
-              after your system goes live.
+              Cold email is not instant. Here&apos;s an honest look at what
+              happens each month — and what you should and shouldn&apos;t expect.
             </p>
           </div>
-          <div className="grid gap-4 sm:grid-cols-3">
+          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             {[
               {
-                period: "Weeks 1–2",
-                label: "Setup & Build",
-                detail: "Infrastructure configured, domains warmed, leads sourced and verified, sequences written. The engine is being built."
+                period: "Month 1",
+                label: "Build",
+                detail: "Infrastructure configured, domains warming, leads sourced and verified, sequences written and approved. Zero meetings yet. This is building the engine.",
               },
               {
-                period: "Weeks 3–4",
-                label: "Launch & Ramp",
-                detail: "Campaigns go live. Early replies start coming in. We monitor deliverability closely and make adjustments before scaling volume."
+                period: "Month 2",
+                label: "Launch",
+                detail: "Campaigns go live. 5,000–10,000 emails sent. Replies start flowing in. We qualify prospects and begin booking. First 3–5 qualified meetings booked.",
               },
               {
-                period: "Weeks 4–8",
-                label: "Discovery Calls",
-                detail: "As the system matures, qualified discovery calls start booking. Most clients see 5–12 calls per month once campaigns are fully dialed in."
+                period: "Month 3",
+                label: "Optimize",
+                detail: "Double down on winning messaging. Scale email volume. Expand prospect segments. Optimize reply-to-booking conversion. 5–10 qualified meetings booked.",
+              },
+              {
+                period: "Month 4+",
+                label: "Steady State",
+                detail: "Predictable meeting flow established. Consistent 8–15 qualified discovery calls per month. Ongoing optimization and scaling. The system is working.",
               },
             ].map((phase, i) => (
               <div
@@ -259,12 +267,12 @@ export default function HowItWorksPage() {
       <section className="border-t border-white/[0.06] bg-white/[0.02] py-20">
         <div className="mx-auto max-w-3xl px-4 text-center sm:px-6">
           <h2 className="text-3xl font-bold text-white sm:text-4xl">
-            This Isn&apos;t a Package. It&apos;s a Partnership.
+            This Is Built Around Your Business.
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-muted-foreground">
-            Every system we build is custom-scoped to your coaching or consulting offer,
-            your market, and your goals. Book a strategy session and we&apos;ll map out exactly
-            what your outbound engine would look like — built for your numbers, not a one-size-fits-all template.
+            Every system we build is custom-scoped to your coaching offer, your market, and your goals.
+            Book a strategy call and we&apos;ll map out exactly what your outbound engine would look like —
+            built for your niche, not a one-size-fits-all template.
           </p>
           <div className="mt-8">
             <Button
@@ -273,12 +281,12 @@ export default function HowItWorksPage() {
               className="bg-[#f34749] px-8 text-white hover:bg-[#d93d3f]"
             >
               <Link href="/contact">
-                Build My Custom System <ArrowRight size={16} className="ml-2" />
+                Book a Strategy Call <ArrowRight size={16} className="ml-2" />
               </Link>
             </Button>
           </div>
           <p className="mt-3 text-xs text-muted-foreground">
-            60-minute call. No obligation. Just an honest look at what your pipeline could be.
+            No pitch. No pressure. Just an honest look at what your pipeline could look like.
           </p>
         </div>
       </section>

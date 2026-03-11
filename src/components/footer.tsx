@@ -16,8 +16,8 @@ export function Footer() {
             </Link>
             <p className="mt-3 text-sm text-muted-foreground">
               Blackline builds done-for-you AI cold email systems
-              that book qualified discovery calls for coaches and consultants.
-              Custom-built and launched in 14 days.
+              that fill your calendar with qualified discovery calls.
+              Custom-built for business coaches and consultants.
             </p>
           </div>
 
