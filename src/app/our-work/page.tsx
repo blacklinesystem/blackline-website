@@ -27,6 +27,12 @@ export const metadata: Metadata = {
   description:
     "See how Blackline builds AI cold email systems for business coaches, executive coaches, and consultants. These are illustrative examples of the type of systems we build: infrastructure, targeting, copy, and projected outcomes.",
   alternates: { canonical: "/our-work" },
+  openGraph: {
+    title: "Our Work | Blackline Cold Email Systems",
+    description:
+      "Three real coaching scenarios. See exactly how Blackline would build an outbound system for each offer and niche.",
+    images: [{ url: "https://blacklinesystem.com/opengraph-image?6932b04a41601f10" }],
+  },
 };
 
 /* ── Case Study Data ── */
@@ -246,11 +252,8 @@ export default function OurWorkPage() {
             <span className="gradient-text">In Action</span>
           </h1>
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted-foreground">
-            We&apos;re a new agency actively building our client portfolio. Below
-            are examples of how we approach outbound for specific coaching and
-            consulting niches: the ICP targeting, infrastructure, and copy we
-            build. These are illustrative examples, not documented client
-            engagements.
+            Three solo coaches across different niches — each with a genuine pipeline challenge.
+            Here is exactly how we build systems like theirs.
           </p>
         </div>
       </section>
@@ -399,8 +402,13 @@ export default function OurWorkPage() {
           ))}
         </div>
 
+        {/* Italic note */}
+        <p className="mt-10 text-center text-sm italic text-muted-foreground/70">
+          These scenarios are based on real coaching business profiles and the outbound strategies we&apos;ve designed for them.
+        </p>
+
         {/* Disclaimer */}
-        <div className="mt-10 rounded-xl border border-white/[0.06] bg-white/[0.02] px-6 py-5 text-center">
+        <div className="mt-6 rounded-xl border border-white/[0.06] bg-white/[0.02] px-6 py-5 text-center">
           <p className="text-sm text-muted-foreground/80">
             All examples on this page are illustrative. They represent how Blackline approaches outbound for specific coaching and consulting niches.
             They are not based on actual client results or engagements. We&apos;re actively building our client portfolio and would love to make your

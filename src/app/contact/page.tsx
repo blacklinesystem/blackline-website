@@ -7,6 +7,12 @@ export const metadata: Metadata = {
   description:
     "Book a free strategy call with Blackline. We'll map your ICP, outline your outbound infrastructure, and show you exactly what 8–15 qualified discovery calls per month looks like for your coaching business. No obligation.",
   alternates: { canonical: "/contact" },
+  openGraph: {
+    title: "Book a Strategy Call | Blackline",
+    description:
+      "Schedule a free 1-hour strategy call. We'll audit your pipeline, map your ICP, and show you what a Blackline system would look like for your offer.",
+    images: [{ url: "https://blacklinesystem.com/opengraph-image?6932b04a41601f10" }],
+  },
 };
 
 export default function ContactPage() {

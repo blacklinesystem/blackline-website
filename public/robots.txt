@@ -1,5 +1,4 @@
-# Blackline — blacklinesystem.com
 User-agent: *
 Allow: /
 
-Sitemap: https://blacklinesystem.com/sitemap.xml
+Sitemap: https://www.blacklinesystem.com/sitemap.xml

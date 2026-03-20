@@ -4,8 +4,10 @@ export function Footer() {
   return (
     <footer className="border-t border-white/[0.06] bg-[#111111]">
       <div className="mx-auto max-w-6xl px-4 py-12 sm:px-6">
-        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-          <div>
+        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-5">
+
+          {/* Brand — wider column */}
+          <div className="lg:col-span-2">
             <Link href="/">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
@@ -14,7 +16,7 @@ export function Footer() {
                 className="h-7 w-auto"
               />
             </Link>
-            <p className="mt-3 text-sm text-muted-foreground">
+            <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
               Blackline builds done-for-you AI cold email systems
               that fill your calendar with qualified discovery calls.
               Custom-built for business coaches and consultants.
@@ -48,7 +50,7 @@ export function Footer() {
               <li>
                 <a
                   href="mailto:hello@blacklinesystem.com"
-                  className="hover:text-white transition-colors"
+                  className="hover:text-white transition-colors break-all"
                 >
                   hello@blacklinesystem.com
                 </a>
@@ -62,8 +64,10 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="mt-10 border-t border-white/[0.06] pt-6 text-center text-xs text-muted-foreground">
-          &copy; {new Date().getFullYear()} Blackline. All rights reserved.
+        {/* Bottom bar */}
+        <div className="mt-10 flex flex-col items-center justify-between gap-2 border-t border-white/[0.06] pt-6 text-xs text-muted-foreground sm:flex-row">
+          <span>&copy; {new Date().getFullYear()} Blackline. All rights reserved.</span>
+          <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
         </div>
       </div>
     </footer>

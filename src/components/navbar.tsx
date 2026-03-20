@@ -40,7 +40,7 @@ export function Navbar() {
             </Link>
           ))}
           <Button asChild size="sm" className="bg-[#f34749] hover:bg-[#d93d3f] text-white">
-            <Link href="/contact">Book a Call</Link>
+            <Link href="/contact">Book a Strategy Call</Link>
           </Button>
         </div>
 
@@ -68,7 +68,7 @@ export function Navbar() {
             </Link>
           ))}
           <Button asChild size="sm" className="mt-4 w-full bg-[#f34749] hover:bg-[#d93d3f] text-white">
-            <Link href="/contact">Book a Call</Link>
+            <Link href="/contact">Book a Strategy Call</Link>
           </Button>
         </div>
       )}

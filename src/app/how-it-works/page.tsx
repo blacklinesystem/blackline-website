@@ -15,8 +15,14 @@ import {
 export const metadata: Metadata = {
   title: "How It Works | Blackline's AI Cold Email System for Business Coaches",
   description:
-    "See how Blackline goes from zero to consistent discovery calls in 90 days. Our 5-step process: ICP workshop, infrastructure build, lead sourcing, AI copy, and campaign management. Honest timelines for business coaches.",
+    "See the five-component system Blackline builds for business coaches: ICP strategy, outbound infrastructure, lead sourcing, AI-personalized copy, and campaign management. All done for you.",
   alternates: { canonical: "/how-it-works" },
+  openGraph: {
+    title: "How It Works | Blackline Cold Email Systems",
+    description:
+      "Five components. Every one non-negotiable. See how Blackline builds your entire cold email engine from ICP strategy to booked calls.",
+    images: [{ url: "https://blacklinesystem.com/opengraph-image?6932b04a41601f10" }],
+  },
 };
 
 const steps = [
